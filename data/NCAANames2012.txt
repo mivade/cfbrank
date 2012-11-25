@@ -1,0 +1,124 @@
+Akron
+Alabama
+UAB
+Arizona St.
+Arizona
+Arkansas St.
+Arkansas
+Auburn
+Ball St.
+Baylor
+Boise St.
+Boston College
+Bowling Green
+BYU
+Buffalo
+Fresno St.
+California
+UCLA
+UCF
+Central Mich.
+Cincinnati
+Clemson
+Colorado St.
+Colorado
+Connecticut
+Duke
+East Carolina
+Eastern Mich.
+Fla. Atlantic
+FIU
+Florida St.
+Florida
+Georgia Tech
+Georgia
+Hawaii
+Houston
+Idaho
+Illinois
+Indiana
+Iowa St.
+Iowa
+Kansas St.
+Kansas
+Kent St.
+Kentucky
+LSU
+Louisiana Tech
+Louisville
+Marshall
+Maryland
+Massachusetts
+Memphis
+Miami (OH)
+Miami (FL)
+Michigan St.
+Michigan
+Middle Tenn.
+Minnesota
+Mississippi St.
+Ole Miss
+Missouri
+North Carolina
+Nebraska
+UNLV
+Nevada
+New Mexico St.
+New Mexico
+North Carolina St.
+North Texas
+La.-Monroe
+Northern Ill.
+Northwestern
+Notre Dame
+Ohio St.
+Ohio
+Oklahoma St.
+Oklahoma
+Oregon St.
+Oregon
+Penn St.
+Pittsburgh
+Purdue
+Rice
+Rutgers
+San Diego St.
+San Jose St.
+South Ala.
+South Carolina
+South Fla.
+Southern California
+SMU
+Southern Miss.
+Texas St.
+La.-Lafayette
+Stanford
+Syracuse
+Temple
+Tennessee
+Texas A&M
+TCU
+Texas Tech
+Texas
+UTEP
+UTSA
+Toledo
+Troy
+Tulane
+Tulsa
+Air Force
+Army
+Navy
+Utah St.
+Utah
+Vanderbilt
+Virginia Tech
+Virginia
+Wake Forest
+Washington St.
+Washington
+West Virginia
+Western Ky.
+Western Mich.
+Wisconsin
+Wyoming
