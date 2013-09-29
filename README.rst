@@ -41,27 +41,18 @@ rewarded [#]_, and therefore a FCS win counts as a fraction of a whole
 win, where that fraction is another tunable parameter, B. A loss to an
 FCS team counts the same as a loss to an FBS team.
 
-Adjusted winning percentage method
-----------------------------------
-
-The adjusted winning percentage method (AWP) is very similar to the
-original method. The primary difference is that each opponent's
-winning percentage is considered individually instead of taking the
-aggregate opponents' winning percentage. In other words, after the
-:math:`i`\th game, the points to be added to the team's score is given by
-
-.. math:: P_i = A_0 w_{0i} + A_1 w_{1i},
-
-where :math:`w_{0i}` is 1 (0) for a win (loss) and :math:`w_{1i}` is
-the :math:`i`\th opponent's winning percentage (unless the opponent is
-an FCS school, in which case it is a constant). The total score is
-then simply the sum :math:`P = \sum_i P_i`.
-
 AWPMOV Method
 -------------
 
-The AWPMOV method is the same as the AWP method, except it includes
-margin of victory (MOV) in the calculation.
+The AWPMOV method considers a team's wins, opponents' winning
+percentage, and margin of victory (actually point differential as
+currently implemented). The score is calculated by
+
+.. math:: P = A_0 w_0 + A_1 w_1 + A_2 w_2,
+
+where :math:`w_0` is the winning percentage, :math:`w_1` is the
+aggregate winning percentage of opponents that the team has beaten,
+and :math:`w_2` is the normalized point differential.
 
 Park-Newman method
 ------------------
@@ -80,7 +71,7 @@ algorithm is entering a season's worth of data (even if only one week
 at a time!). Luckily, there are a number of places on the web where
 basic data can be downloaded in simple CSV format. Right now, cfbrank
 has functionality provided by the dataparse module to parse CSV files
-from `Sunshine Forecast`_, the NCAA_ [#]_, and `cfbstats.com`_.
+from `Sunshine Forecast`_, the NCAA_ [#]_, and `cfbstats.com`_ (soon).
 
 .. _Sunshine Forecast: http://www.repole.com/sun4cast/data.html
 .. _NCAA: http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Football/index.html
