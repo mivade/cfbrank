@@ -1,4 +1,4 @@
 #!/bin/bash
 cd data
-wget http://web1.ncaa.org/mfb/2012/Internet/schedule/DIVISIONB.csv
-mv DIVISIONB.csv NCAA_FBS_2012.csv 
+wget http://fs.ncaa.org/Docs/stats/football_records/sched/2013/fbs.csv
+mv fbs.csv NCAA_FBS_2013.csv 

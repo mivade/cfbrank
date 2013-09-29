@@ -25,6 +25,8 @@ class Team:
         self.FBS = FBS
         self.wins = 0
         self.losses = 0
+        self.points_for = 0
+        self.points_against = 0
         self.num_FCS_opponents = 0
         self.opponents = []
         self.record = []
@@ -71,27 +73,34 @@ class Team:
         provided. Valid options are 'original', 'adjusted winning
         percentage' and 'park-newman'."""
 
-        # Original method. See the readme for details.
+        # Original method
         if method == "original":
-            games, N = self.wins + self.losses, self.num_FCS_opponents
+            games, N = float(self.wins + self.losses), self.num_FCS_opponents
             w0 = self.getWinningPercentage()
             w0 = w0 - N*(1 - penalties)/float(games)
             w0_oppts = self.getOpponentsWinningPercentage()
             w1 = w0_oppts/float(games)
             return weights[0]*w0 + weights[1]*w1
 
-        # Adjusted winning percentage rankings. See the readme for
-        # details.
-        elif method == "adjusted winning percentage":
-            w0, w1 = 0., 0.
+        # AWPMOV method
+        elif method == "AWPMOV":
+            w0, w1, w2 = 0., 0., 0.
+            w2 = float(self.points_for - self.points_against)/float(self.points_for + self.points_against)
             games = self.wins + self.losses
             for i, opponent in enumerate(self.opponents):
                 w0 += self.record[i]
                 if opponent.FBS and self.record[i] == 1:
                     w1 += opponent.getWinningPercentage()
                 else:
-                    w1 += penalties
-            return (weights[0]*w0 + weights[1]*w1)/float(games)
+                    #w1 += penalties
+                    pass
+            w0 /= games
+            try:
+                w1 /= float(self.wins)
+            except ZeroDivisionError:
+                w1 = 0
+            #print w0, w1, w2
+            return weights[0]*w0 + weights[1]*w1 + weights[2]*w2
 
         # Park-Newman one-parameter rankings
         # See J. Park and M.E.J. Newman, J. Stat. Mech. 2005, 10014
