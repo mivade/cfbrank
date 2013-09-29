@@ -13,9 +13,9 @@ teams.
 My general thoughts on how to determine the ranking of teams are as
 follows. First and foremost, overall record matters. With far more
 teams than there are slots in any one team's schedule, this is the
-best first order metric to use [#]_. However, not all schedules are
-created equal, and so the overall quality of resume must be
-considered, as well.
+best first order metric to use. However, not all schedules are created
+equal, and so the overall quality of resume must be considered, as
+well.
 
 Ranking schemes
 ===============
@@ -77,10 +77,6 @@ from `Sunshine Forecast`_, the NCAA_ [#]_, and `cfbstats.com`_ (soon).
 .. _NCAA: http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Football/index.html
 .. _cfbstats.com: http://www.cfbstats.com/blog/college-football-data/
 
-.. [#] Alas, sometimes a team has no choice but to schedule an FCS
-       team if, for example, an FBS opponent cancels on them last
-       minute. There is really no good way to account for this, and so
-       scheduling an FCS team still hurts the scheduler.
 .. [#] One complication is that not all teams play the same number of
        games. The base 12 game schedule is standard, but the "Hawaii
        Rule" allows teams playing at Hawaii to schedule a 13th regular
@@ -93,5 +89,6 @@ from `Sunshine Forecast`_, the NCAA_ [#]_, and `cfbstats.com`_ (soon).
        to provide an extra rankings boost to a team that participates
        in a CCG in a conference where their opponent is of much lower
        quality.
+
 .. [#] As of September 2013, the downloadable NCAA schedules no longer
        include scores, making this data source deprecated.
