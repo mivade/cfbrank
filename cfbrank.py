@@ -34,7 +34,7 @@ if False:
 
 if True:
     print "AWPMOV method:\n"
-    weights = (2., 3., 1.)
+    weights = (3., 2., 1.)
     penalties = 0.4
     rankings = []
     for school in teamd.keys():
@@ -45,9 +45,10 @@ if True:
                 team.school])
     rankings = sorted(rankings)[::-1]
     print format.plain(teamd, rankings)
+    print format.rCFB(teamd, rankings)
 
-    ## UT = teamd['Texas']
-    ## print UT.record
+    UT = teamd['Texas']
+    print UT.record
     ## tOSU = teamd['Ohio State']
     #print tOSU.record
     #print format.plain(teamd, rankings, 100)

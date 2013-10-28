@@ -234,7 +234,7 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line
 09/21/2013,Hawaii,9,Nevada-Reno,31,7.5
 09/21/2013,Utah State,14,Southern Cal,17,7.0
 09/21/2013,S-M-U,13,Texas A+M,42,28.5
-09/21/2013,Houston,26,Rice,31,3.0
+09/21/2013,Rice,26,Houston,31,3.0
 09/21/2013,Michigan State,13,Notre Dame,17,4.5
 09/21/2013,Kansas State,21,Texas,31,5.5
 09/21/2013,Arkansas State,7,Memphis,31,-4.5
@@ -267,541 +267,548 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line
 09/21/2013,Morgan State,17,Western Kentucky,58, 
 09/21/2013,Maine,21,Northwestern,35, 
 09/21/2013,Western Illinois,7,Nevada-Las Vegas,38, 
-09/26/2013,Virginia Tech, ,Georgia Tech, ,7.5
-09/26/2013,Iowa State, ,Tulsa, ,3.0
-09/27/2013,Middle Tennessee, ,Brigham Young, ,21.0
-09/27/2013,Utah State, ,San Jose State, ,-8.0
-09/28/2013,Virginia, ,Pittsburgh, ,7.0
-09/28/2013,Northern Illinois, ,Purdue, ,-4.0
-09/28/2013,Troy, ,Duke, ,11.0
-09/28/2013,Connecticut, ,Buffalo, ,-2.5
-09/28/2013,Toledo, ,Ball State, ,3.0
-09/28/2013,Central Michigan, ,No Carolina State, ,23.0
-09/28/2013,Kent State, ,Western Michigan, ,3.0
-09/28/2013,East Carolina, ,North Carolina, ,11.0
-09/28/2013,Florida State, ,Boston College, ,-21.5
-09/28/2013,U-A-B, ,Vanderbilt, ,20.0
-09/28/2013,Miami-Ohio, ,Illinois, ,24.5
-09/28/2013,S-M-U, ,Texas Christian, ,19.0
-09/28/2013,Arkansas State, ,Missouri, ,21.0
-09/28/2013,Iowa, ,Minnesota, ,-1.0
-09/28/2013,UTEP, ,Colorado State, ,13.0
-09/28/2013,Louisiana State, ,Georgia, ,3.0
-09/28/2013,Arizona, ,Washington, ,7.0
-09/28/2013,Mississippi, ,Alabama, ,17.0
-09/28/2013,California, ,Oregon, ,35.5
-09/28/2013,Southern Cal, ,Arizona State, ,6.5
-09/28/2013,Army, ,Louisiana Tech, ,2.0
-09/28/2013,Texas A+M, ,Arkansas, , 
-09/28/2013,Oklahoma, ,Notre Dame, ,-3.5
-09/28/2013,Southern Miss, ,Boise State, ,26.0
-09/28/2013,Miami-Florida, ,South Florida, , 
-09/28/2013,Wake Forest, ,Clemson, ,27.5
-09/28/2013,Temple, ,Idaho, ,-8.5
-09/28/2013,Tulane, ,UL-Monroe, ,11.5
-09/28/2013,Houston, ,Texas-San Antonio, ,-2.5
-09/28/2013,Akron, ,Bowling Green, ,15.5
-09/28/2013,Colorado, ,Oregon State, ,10.0
-09/28/2013,South Carolina, ,U-C-F, ,-7.0
-09/28/2013,Florida, ,Kentucky, ,-14.0
-09/28/2013,Stanford, ,Washington State, ,-10.0
-09/28/2013,Wyoming, ,Texas State, ,-11.0
-09/28/2013,Navy, ,Western Kentucky, ,-1.0
-09/28/2013,Florida Atlantic, ,Rice, ,13.0
-09/28/2013,South Alabama, ,Tennessee, ,18.5
-09/28/2013,Air Force, ,Nevada-Reno, , 
-09/28/2013,Oklahoma State, ,West Virginia, ,-21.0
-09/28/2013,Wisconsin, ,Ohio State, ,7.5
-09/28/2013,Nevada-Las Vegas, ,New Mexico, ,-2.0
-09/28/2013,San Diego State, ,New Mexico State, ,-18.0
-09/28/2013,Fresno State, ,Hawaii, , 
-10/03/2013,Texas, ,Iowa State, , 
-10/03/2013,Western Kentucky, ,UL-Monroe, , 
-10/03/2013,U.C.L.A., ,Utah, , 
-10/04/2013,Brigham Young, ,Utah State, , 
-10/04/2013,Nevada-Reno, ,San Diego State, , 
-10/05/2013,Air Force, ,Navy, , 
-10/05/2013,Michigan State, ,Iowa, , 
-10/05/2013,Louisville, ,Temple, , 
-10/05/2013,Western Michigan, ,Toledo, , 
-10/05/2013,Eastern Michigan, ,Buffalo, , 
-10/05/2013,Georgia State, ,Alabama, , 
-10/05/2013,Army, ,Boston College, , 
-10/05/2013,Central Michigan, ,Miami-Ohio, , 
-10/05/2013,Ball State, ,Virginia, , 
-10/05/2013,Maryland, ,Florida State, , 
-10/05/2013,Georgia Tech, ,Miami-Florida, , 
-10/05/2013,Clemson, ,Syracuse, , 
-10/05/2013,No Carolina State, ,Wake Forest, , 
-10/05/2013,Illinois, ,Nebraska, , 
-10/05/2013,Texas-San Antonio, ,Marshall, , 
-10/05/2013,North Texas, ,Tulane, , 
-10/05/2013,Oregon, ,Colorado, , 
-10/05/2013,Georgia, ,Tennessee, , 
-10/05/2013,Arkansas, ,Florida, , 
-10/05/2013,Louisiana State, ,Mississippi State, , 
-10/05/2013,Rice, ,Tulsa, , 
-10/05/2013,North Carolina, ,Virginia Tech, , 
-10/05/2013,Texas Christian, ,Oklahoma, , 
-10/05/2013,Cincinnati, ,South Florida, , 
-10/05/2013,Kansas State, ,Oklahoma State, , 
-10/05/2013,Missouri, ,Vanderbilt, , 
-10/05/2013,Minnesota, ,Michigan, , 
-10/05/2013,U-C-F, ,Memphis, , 
-10/05/2013,Rutgers, ,S-M-U, , 
-10/05/2013,Fresno State, ,Idaho, , 
-10/05/2013,Texas State, ,UL-Lafayette, , 
-10/05/2013,South Alabama, ,Troy, , 
-10/05/2013,New Mexico State, ,New Mexico, , 
-10/05/2013,Washington State, ,California, , 
-10/05/2013,Washington, ,Stanford, , 
-10/05/2013,Northern Illinois, ,Kent State, , 
-10/05/2013,Mississippi, ,Auburn, , 
-10/05/2013,Kentucky, ,South Carolina, , 
-10/05/2013,Florida Intl, ,Southern Miss, , 
-10/05/2013,Massachusetts, ,Bowling Green, , 
-10/05/2013,Florida Atlantic, ,U-A-B, , 
-10/05/2013,Texas Tech, ,Kansas, , 
-10/05/2013,East Carolina, ,Middle Tennessee, , 
-10/05/2013,Ohio, ,Akron, , 
-10/05/2013,Arizona State, ,Notre Dame, , 
-10/05/2013,West Virginia, ,Baylor, , 
-10/05/2013,Louisiana Tech, ,UTEP, , 
-10/05/2013,Ohio State, ,Northwestern, , 
-10/05/2013,Penn State, ,Indiana, , 
-10/05/2013,San Jose State, ,Hawaii, , 
-10/10/2013,Rutgers, ,Louisville, , 
-10/10/2013,San Diego State, ,Air Force, , 
-10/10/2013,Arizona, ,Southern Cal, , 
-10/11/2013,Temple, ,Cincinnati, , 
-10/12/2013,Oklahoma, ,Texas, , 
-10/12/2013,Indiana, ,Michigan State, , 
-10/12/2013,Pittsburgh, ,Virginia Tech, , 
-10/12/2013,Miami-Ohio, ,Massachusetts, , 
-10/12/2013,Boston College, ,Clemson, , 
-10/12/2013,Buffalo, ,Western Michigan, , 
-10/12/2013,Central Michigan, ,Ohio, , 
-10/12/2013,Eastern Michigan, ,Army, , 
-10/12/2013,Virginia, ,Maryland, , 
-10/12/2013,South Florida, ,Connecticut, , 
-10/12/2013,Navy, ,Duke, , 
-10/12/2013,Troy, ,Georgia State, , 
-10/12/2013,Texas A+M, ,Mississippi, , 
-10/12/2013,Kent State, ,Ball State, , 
-10/12/2013,Bowling Green, ,Mississippi State, , 
-10/12/2013,Akron, ,Northern Illinois, , 
-10/12/2013,Iowa State, ,Texas Tech, , 
-10/12/2013,Rice, ,Texas-San Antonio, , 
-10/12/2013,New Mexico, ,Wyoming, , 
-10/12/2013,Stanford, ,Utah, , 
-10/12/2013,Georgia Tech, ,Brigham Young, , 
-10/12/2013,Nebraska, ,Purdue, , 
-10/12/2013,Missouri, ,Georgia, , 
-10/12/2013,Baylor, ,Kansas State, , 
-10/12/2013,Florida, ,Louisiana State, , 
-10/12/2013,Colorado, ,Arizona State, , 
-10/12/2013,Oregon, ,Washington, , 
-10/12/2013,California, ,U.C.L.A., , 
-10/12/2013,Northwestern, ,Wisconsin, , 
-10/12/2013,East Carolina, ,Tulane, , 
-10/12/2013,South Carolina, ,Arkansas, , 
-10/12/2013,Alabama, ,Kentucky, , 
-10/12/2013,San Jose State, ,Colorado State, , 
-10/12/2013,Idaho, ,Arkansas State, , 
-10/12/2013,Michigan, ,Penn State, , 
-10/12/2013,Syracuse, ,No Carolina State, , 
-10/12/2013,Memphis, ,Houston, , 
-10/12/2013,U-A-B, ,Florida Intl, , 
-10/12/2013,Marshall, ,Florida Atlantic, , 
-10/12/2013,Kansas, ,Texas Christian, , 
-10/12/2013,Middle Tennessee, ,North Texas, , 
-10/12/2013,UL-Monroe, ,Texas State, , 
-10/12/2013,Boise State, ,Utah State, , 
-10/12/2013,Oregon State, ,Washington State, , 
-10/12/2013,Tulsa, ,UTEP, , 
-10/12/2013,Hawaii, ,Nevada-Las Vegas, , 
-10/12/2013,Western Carolina, ,Auburn, , 
-10/15/2013,UL-Lafayette, ,Western Kentucky, , 
-10/17/2013,Miami-Florida, ,North Carolina, , 
-10/18/2013,U-C-F, ,Louisville, , 
-10/19/2013,Duke, ,Virginia, , 
-10/19/2013,Army, ,Temple, , 
-10/19/2013,Ohio, ,Eastern Michigan, , 
-10/19/2013,Ball State, ,Western Michigan, , 
-10/19/2013,Northern Illinois, ,Central Michigan, , 
-10/19/2013,Purdue, ,Michigan State, , 
-10/19/2013,Southern Miss, ,East Carolina, , 
-10/19/2013,Florida State, ,Clemson, , 
-10/19/2013,Maryland, ,Wake Forest, , 
-10/19/2013,Texas Tech, ,West Virginia, , 
-10/19/2013,Minnesota, ,Northwestern, , 
-10/19/2013,Navy, ,Toledo, , 
-10/19/2013,Connecticut, ,Cincinnati, , 
-10/19/2013,S-M-U, ,Memphis, , 
-10/19/2013,Colorado State, ,Wyoming, , 
-10/19/2013,Auburn, ,Texas A+M, , 
-10/19/2013,Washington State, ,Oregon, , 
-10/19/2013,Indiana, ,Michigan, , 
-10/19/2013,Syracuse, ,Georgia Tech, , 
-10/19/2013,Oregon State, ,California, , 
-10/19/2013,Iowa, ,Ohio State, , 
-10/19/2013,Arkansas, ,Alabama, , 
-10/19/2013,South Carolina, ,Tennessee, , 
-10/19/2013,Washington, ,Arizona State, , 
-10/19/2013,North Texas, ,Louisiana Tech, , 
-10/19/2013,Kent State, ,South Alabama, , 
-10/19/2013,Utah State, ,New Mexico, , 
-10/19/2013,Florida, ,Missouri, , 
-10/19/2013,Louisiana State, ,Mississippi, , 
-10/19/2013,Brigham Young, ,Houston, , 
-10/19/2013,Massachusetts, ,Buffalo, , 
-10/19/2013,Georgia State, ,Texas State, , 
-10/19/2013,Akron, ,Miami-Ohio, , 
-10/19/2013,Iowa State, ,Baylor, , 
-10/19/2013,Oklahoma, ,Kansas, , 
-10/19/2013,Texas Christian, ,Oklahoma State, , 
-10/19/2013,U.C.L.A., ,Stanford, , 
-10/19/2013,Southern Cal, ,Notre Dame, , 
-10/19/2013,Rice, ,New Mexico State, , 
-10/19/2013,Nevada-Reno, ,Boise State, , 
-10/19/2013,Wisconsin, ,Illinois, , 
-10/19/2013,Georgia, ,Vanderbilt, , 
-10/19/2013,Utah, ,Arizona, , 
-10/19/2013,Nevada-Las Vegas, ,Fresno State, , 
-10/19/2013,Old Dominion, ,Pittsburgh, , 
-10/22/2013,UL-Lafayette, ,Arkansas State, , 
-10/24/2013,Kentucky, ,Mississippi State, , 
-10/24/2013,Marshall, ,Middle Tennessee, , 
-10/25/2013,Boise State, ,Brigham Young, , 
-10/26/2013,Georgia Tech, ,Virginia, , 
-10/26/2013,Connecticut, ,U-C-F, , 
-10/26/2013,Ball State, ,Akron, , 
-10/26/2013,Miami-Ohio, ,Ohio, , 
-10/26/2013,Buffalo, ,Kent State, , 
-10/26/2013,Western Michigan, ,Massachusetts, , 
-10/26/2013,Houston, ,Rutgers, , 
-10/26/2013,Boston College, ,North Carolina, , 
-10/26/2013,Clemson, ,Maryland, , 
-10/26/2013,Duke, ,Virginia Tech, , 
-10/26/2013,Pittsburgh, ,Navy, , 
-10/26/2013,U-A-B, ,Texas-San Antonio, , 
-10/26/2013,Temple, ,S-M-U, , 
-10/26/2013,Eastern Michigan, ,Northern Illinois, , 
-10/26/2013,Arizona, ,Colorado, , 
-10/26/2013,Vanderbilt, ,Texas A+M, , 
-10/26/2013,Florida Atlantic, ,Auburn, , 
-10/26/2013,Tennessee, ,Alabama, , 
-10/26/2013,U.C.L.A., ,Oregon, , 
-10/26/2013,Utah, ,Southern Cal, , 
-10/26/2013,Tulsa, ,Tulane, , 
-10/26/2013,California, ,Washington, , 
-10/26/2013,West Virginia, ,Kansas State, , 
-10/26/2013,Michigan State, ,Illinois, , 
-10/26/2013,Wake Forest, ,Miami-Florida, , 
-10/26/2013,No Carolina State, ,Florida State, , 
-10/26/2013,Texas Tech, ,Oklahoma, , 
-10/26/2013,Texas, ,Texas Christian, , 
-10/26/2013,Northwestern, ,Iowa, , 
-10/26/2013,Nevada-Las Vegas, ,Nevada-Reno, , 
-10/26/2013,Wyoming, ,San Jose State, , 
-10/26/2013,Stanford, ,Oregon State, , 
-10/26/2013,Troy, ,Western Kentucky, , 
-10/26/2013,Notre Dame, ,Air Force, , 
-10/26/2013,Georgia State, ,UL-Monroe, , 
-10/26/2013,South Alabama, ,Texas State, , 
-10/26/2013,Idaho, ,Mississippi, , 
-10/26/2013,North Texas, ,Southern Miss, , 
-10/26/2013,Louisiana Tech, ,Florida Intl, , 
-10/26/2013,South Carolina, ,Missouri, , 
-10/26/2013,Oklahoma State, ,Iowa State, , 
-10/26/2013,Baylor, ,Kansas, , 
-10/26/2013,Nebraska, ,Minnesota, , 
-10/26/2013,Louisville, ,South Florida, , 
-10/26/2013,Toledo, ,Bowling Green, , 
-10/26/2013,Penn State, ,Ohio State, , 
-10/26/2013,UTEP, ,Rice, , 
-10/26/2013,Fresno State, ,San Diego State, , 
-10/26/2013,Colorado State, ,Hawaii, , 
-10/26/2013,Abilene Christian, ,New Mexico State, , 
-10/26/2013,Furman, ,Louisiana State, , 
-10/30/2013,Cincinnati, ,Memphis, , 
-10/31/2013,South Florida, ,Houston, , 
-10/31/2013,Rice, ,North Texas, , 
-10/31/2013,UL-Monroe, ,Troy, , 
-10/31/2013,Arizona State, ,Washington State, , 
-11/01/2013,Southern Cal, ,Oregon State, , 
-11/02/2013,Clemson, ,Virginia, , 
-11/02/2013,Virginia Tech, ,Boston College, , 
-11/02/2013,Eastern Michigan, ,Toledo, , 
-11/02/2013,Northern Illinois, ,Massachusetts, , 
-11/02/2013,Kent State, ,Akron, , 
-11/02/2013,Temple, ,Rutgers, , 
-11/02/2013,Illinois, ,Penn State, , 
-11/02/2013,Pittsburgh, ,Georgia Tech, , 
-11/02/2013,Wake Forest, ,Syracuse, , 
-11/02/2013,Western Kentucky, ,Georgia State, , 
-11/02/2013,Tennessee, ,Missouri, , 
-11/02/2013,Iowa State, ,Kansas State, , 
-11/02/2013,Southern Miss, ,Marshall, , 
-11/02/2013,UTEP, ,Texas A+M, , 
-11/02/2013,Middle Tennessee, ,U-A-B, , 
-11/02/2013,Texas-San Antonio, ,Tulsa, , 
+09/26/2013,Virginia Tech,17,Georgia Tech,10,7.5
+09/26/2013,Iowa State,38,Tulsa,21,3.0
+09/27/2013,Middle Tennessee,10,Brigham Young,37,23.0
+09/27/2013,Utah State,40,San Jose State,12,-10.5
+09/28/2013,Virginia,3,Pittsburgh,14,6.0
+09/28/2013,Northern Illinois,55,Purdue,24,-4.0
+09/28/2013,Troy,31,Duke,38,13.5
+09/28/2013,Connecticut,12,Buffalo,41,-1.5
+09/28/2013,Toledo,24,Ball State,31,1.5
+09/28/2013,Central Michigan,14,No Carolina State,48,24.0
+09/28/2013,Kent State,32,Western Michigan,14,-2.0
+09/28/2013,East Carolina,55,North Carolina,31,12.5
+09/28/2013,Florida State,48,Boston College,34,-24.5
+09/28/2013,U-A-B,24,Vanderbilt,52,20.0
+09/28/2013,Miami-Ohio,14,Illinois,50,28.5
+09/28/2013,S-M-U,17,Texas Christian,48,17.0
+09/28/2013,Arkansas State,19,Missouri,41,22.5
+09/28/2013,Iowa,23,Minnesota,7,-2.5
+09/28/2013,UTEP,42,Colorado State,59,13.5
+09/28/2013,Louisiana State,41,Georgia,44,3.0
+09/28/2013,Arizona,13,Washington,31,9.5
+09/28/2013,Mississippi,0,Alabama,25,14.5
+09/28/2013,California,16,Oregon,55,38.5
+09/28/2013,Southern Cal,41,Arizona State,62,4.5
+09/28/2013,Army,35,Louisiana Tech,16,3.5
+09/28/2013,Texas A+M,45,Arkansas,33,-14.5
+09/28/2013,Oklahoma,35,Notre Dame,21,-4.5
+09/28/2013,Southern Miss,7,Boise State,60,29.0
+09/28/2013,Miami-Florida,49,South Florida,21,-18.5
+09/28/2013,Wake Forest,7,Clemson,56,29.5
+09/28/2013,Temple,24,Idaho,26,-7.5
+09/28/2013,Tulane,31,UL-Monroe,14,12.5
+09/28/2013,Houston,59,Texas-San Antonio,28,2.0
+09/28/2013,Akron,14,Bowling Green,31,15.0
+09/28/2013,Colorado,17,Oregon State,44,12.0
+09/28/2013,South Carolina,28,U-C-F,25,-7.0
+09/28/2013,Florida,24,Kentucky,7,-12.0
+09/28/2013,Stanford,55,Washington State,17,-9.5
+09/28/2013,Wyoming,21,Texas State,42,-11.0
+09/28/2013,Navy,7,Western Kentucky,19,-4.0
+09/28/2013,Florida Atlantic,14,Rice,18,14.5
+09/28/2013,South Alabama,24,Tennessee,31,17.0
+09/28/2013,Air Force,42,Nevada-Reno,45,12.5
+09/28/2013,Oklahoma State,21,West Virginia,30,-20.0
+09/28/2013,Wisconsin,24,Ohio State,31,7.5
+09/28/2013,Nevada-Las Vegas,56,New Mexico,42,1.5
+09/28/2013,San Diego State,26,New Mexico State,16,-16.5
+09/28/2013,Fresno State,42,Hawaii,37,-17.5
+10/03/2013,Texas,31,Iowa State,30,-7.5
+10/03/2013,Western Kentucky,31,UL-Monroe,10,-8.0
+10/03/2013,U.C.L.A.,34,Utah,27,-6.5
+10/04/2013,Brigham Young,31,Utah State,14,6.5
+10/04/2013,Nevada-Reno,44,San Diego State,51,6.0
+10/05/2013,Air Force,10,Navy,28,13.5
+10/05/2013,Michigan State,26,Iowa,14,2.0
+10/05/2013,Louisville,30,Temple,7,-34.0
+10/05/2013,Western Michigan,20,Toledo,47,23.5
+10/05/2013,Eastern Michigan,14,Buffalo,42,13.5
+10/05/2013,Georgia State,3,Alabama,45,53.5
+10/05/2013,Army,27,Boston College,48,12.0
+10/05/2013,Central Michigan,21,Miami-Ohio,9,-3.0
+10/05/2013,Ball State,48,Virginia,27,3.0
+10/05/2013,Maryland,0,Florida State,63,17.0
+10/05/2013,Georgia Tech,30,Miami-Florida,45,7.0
+10/05/2013,Clemson,49,Syracuse,14,-14.5
+10/05/2013,No Carolina State,13,Wake Forest,28,-8.0
+10/05/2013,Illinois,19,Nebraska,39,8.0
+10/05/2013,Texas-San Antonio,10,Marshall,34,15.0
+10/05/2013,North Texas,21,Tulane,24,-3.0
+10/05/2013,Oregon,57,Colorado,16,-40.5
+10/05/2013,Georgia,34,Tennessee,31,-14.0
+10/05/2013,Arkansas,10,Florida,30,13.0
+10/05/2013,Louisiana State,59,Mississippi State,26,-9.0
+10/05/2013,Rice,30,Tulsa,27,3.0
+10/05/2013,North Carolina,17,Virginia Tech,27,9.0
+10/05/2013,Texas Christian,17,Oklahoma,20,9.5
+10/05/2013,Cincinnati,20,South Florida,26,-12.0
+10/05/2013,Kansas State,29,Oklahoma State,33,14.0
+10/05/2013,Missouri,51,Vanderbilt,28,-2.0
+10/05/2013,Minnesota,13,Michigan,42,19.0
+10/05/2013,U-C-F,24,Memphis,17,-10.0
+10/05/2013,Rutgers,55,S-M-U,52,-4.5
+10/05/2013,Fresno State,61,Idaho,14,-28.0
+10/05/2013,Texas State,24,UL-Lafayette,48,11.0
+10/05/2013,South Alabama,33,Troy,34,3.5
+10/05/2013,New Mexico State,17,New Mexico,66,11.0
+10/05/2013,Washington State,44,California,22,-2.0
+10/05/2013,Washington,28,Stanford,31,9.5
+10/05/2013,Northern Illinois,38,Kent State,24,-9.0
+10/05/2013,Mississippi,22,Auburn,30,-3.0
+10/05/2013,Kentucky,28,South Carolina,35,21.5
+10/05/2013,Florida Intl,24,Southern Miss,23,16.5
+10/05/2013,Massachusetts,7,Bowling Green,28,27.0
+10/05/2013,Florida Atlantic,37,U-A-B,23,4.0
+10/05/2013,Texas Tech,54,Kansas,16,-17.0
+10/05/2013,East Carolina,24,Middle Tennessee,17,-7.5
+10/05/2013,Ohio,43,Akron,3,-3.0
+10/05/2013,Arizona State,34,Notre Dame,37,-6.5
+10/05/2013,West Virginia,42,Baylor,73,29.0
+10/05/2013,Louisiana Tech,38,UTEP,35,-2.5
+10/05/2013,Ohio State,40,Northwestern,30,-7.0
+10/05/2013,Penn State,24,Indiana,44,-4.0
+10/05/2013,San Jose State,37,Hawaii,27,-4.0
+10/10/2013,Rutgers,10,Louisville,24,19.0
+10/10/2013,San Diego State,27,Air Force,20,-4.0
+10/10/2013,Arizona,31,Southern Cal,38,6.0
+10/11/2013,Temple,20,Cincinnati,38,20.0
+10/12/2013,Oklahoma,20,Texas,36,-13.5
+10/12/2013,Indiana,28,Michigan State,42,10.0
+10/12/2013,Pittsburgh,9,Virginia Tech,19,7.0
+10/12/2013,Miami-Ohio,10,Massachusetts,17,6.5
+10/12/2013,Boston College,14,Clemson,24,23.5
+10/12/2013,Buffalo,33,Western Michigan,0,-9.5
+10/12/2013,Central Michigan,26,Ohio,23,20.0
+10/12/2013,Eastern Michigan,25,Army,50,10.0
+10/12/2013,Virginia,26,Maryland,27,5.0
+10/12/2013,South Florida,13,Connecticut,10,4.0
+10/12/2013,Navy,7,Duke,35,4.5
+10/12/2013,Troy,35,Georgia State,28,-15.0
+10/12/2013,Texas A+M,41,Mississippi,38,-7.0
+10/12/2013,Kent State,24,Ball State,27,13.5
+10/12/2013,Bowling Green,20,Mississippi State,21,11.5
+10/12/2013,Akron,20,Northern Illinois,27,24.0
+10/12/2013,Iowa State,35,Texas Tech,42,14.0
+10/12/2013,Rice,27,Texas-San Antonio,21,-1.0
+10/12/2013,New Mexico,31,Wyoming,38,13.0
+10/12/2013,Stanford,21,Utah,27,-7.0
+10/12/2013,Georgia Tech,20,Brigham Young,38,7.0
+10/12/2013,Nebraska,44,Purdue,7,-13.0
+10/12/2013,Missouri,41,Georgia,26,7.0
+10/12/2013,Baylor,35,Kansas State,25,-16.5
+10/12/2013,Florida,6,Louisiana State,17,7.0
+10/12/2013,Colorado,13,Arizona State,54,28.0
+10/12/2013,Oregon,45,Washington,24,-12.0
+10/12/2013,California,10,U.C.L.A.,37,25.5
+10/12/2013,Northwestern,6,Wisconsin,35,11.0
+10/12/2013,East Carolina,33,Tulane,36,-13.5
+10/12/2013,South Carolina,52,Arkansas,7,-5.0
+10/12/2013,Alabama,48,Kentucky,7,-26.0
+10/12/2013,San Jose State,34,Colorado State,27,3.5
+10/12/2013,Idaho,24,Arkansas State,48,26.5
+10/12/2013,Michigan,40,Penn State,43,-1.0
+10/12/2013,Syracuse,24,No Carolina State,10,6.0
+10/12/2013,Memphis,15,Houston,25,8.0
+10/12/2013,U-A-B,27,Florida Intl,24,-6.0
+10/12/2013,Marshall,24,Florida Atlantic,23,-10.0
+10/12/2013,Kansas,17,Texas Christian,27,24.0
+10/12/2013,Middle Tennessee,7,North Texas,34,6.0
+10/12/2013,UL-Monroe,21,Texas State,14,5.5
+10/12/2013,Boise State,34,Utah State,23,-5.0
+10/12/2013,Oregon State,52,Washington State,24,0.0
+10/12/2013,Tulsa,34,UTEP,20,-10.0
+10/12/2013,Hawaii,37,Nevada-Las Vegas,39,7.5
+10/12/2013,Western Carolina,3,Auburn,62, 
+10/15/2013,UL-Lafayette,37,Western Kentucky,20,3.0
+10/17/2013,Miami-Florida,27,North Carolina,23,-9.0
+10/18/2013,U-C-F,38,Louisville,35,14.5
+10/19/2013,Duke,35,Virginia,22,2.5
+10/19/2013,Army,14,Temple,33,-1.0
+10/19/2013,Ohio,56,Eastern Michigan,28,-13.5
+10/19/2013,Ball State,38,Western Michigan,17,-18.5
+10/19/2013,Northern Illinois,38,Central Michigan,17,-14.5
+10/19/2013,Purdue,0,Michigan State,14,28.0
+10/19/2013,Southern Miss,14,East Carolina,55,24.0
+10/19/2013,Florida State,51,Clemson,14,-4.5
+10/19/2013,Maryland,10,Wake Forest,34,-4.5
+10/19/2013,Texas Tech,37,West Virginia,27,-3.5
+10/19/2013,Minnesota,20,Northwestern,17,12.5
+10/19/2013,Navy,44,Toledo,45,9.0
+10/19/2013,Connecticut,16,Cincinnati,41,14.0
+10/19/2013,S-M-U,34,Memphis,29,3.5
+10/19/2013,Colorado State,52,Wyoming,22,6.5
+10/19/2013,Auburn,45,Texas A+M,41,12.5
+10/19/2013,Washington State,38,Oregon,62,39.5
+10/19/2013,Indiana,47,Michigan,63,8.5
+10/19/2013,Syracuse,0,Georgia Tech,56,7.0
+10/19/2013,Oregon State,49,California,17,-11.0
+10/19/2013,Iowa,24,Ohio State,34,19.0
+10/19/2013,Arkansas,0,Alabama,52,29.0
+10/19/2013,South Carolina,21,Tennessee,23,-7.0
+10/19/2013,Washington,24,Arizona State,53,3.5
+10/19/2013,North Texas,28,Louisiana Tech,13,-3.5
+10/19/2013,Kent State,21,South Alabama,38,7.5
+10/19/2013,Utah State,45,New Mexico,10,-14.0
+10/19/2013,Florida,17,Missouri,36,-3.0
+10/19/2013,Louisiana State,24,Mississippi,27,-10.0
+10/19/2013,Brigham Young,47,Houston,46,-10.0
+10/19/2013,Massachusetts,3,Buffalo,32,19.5
+10/19/2013,Georgia State,17,Texas State,24,16.0
+10/19/2013,Akron,24,Miami-Ohio,17,-6.0
+10/19/2013,Iowa State,7,Baylor,71,33.0
+10/19/2013,Oklahoma,34,Kansas,19,-21.0
+10/19/2013,Texas Christian,10,Oklahoma State,24,6.5
+10/19/2013,U.C.L.A.,10,Stanford,24,4.0
+10/19/2013,Southern Cal,10,Notre Dame,14,2.0
+10/19/2013,Rice,45,New Mexico State,19,-17.0
+10/19/2013,Nevada-Reno,17,Boise State,34,23.5
+10/19/2013,Wisconsin,56,Illinois,32,-14.5
+10/19/2013,Georgia,27,Vanderbilt,31,-6.5
+10/19/2013,Utah,24,Arizona,35,3.5
+10/19/2013,Nevada-Las Vegas,14,Fresno State,38,24.5
+10/19/2013,Old Dominion,24,Pittsburgh,35, 
+10/19/2013,Charleston Southern,10,Colorado,43, 
+10/22/2013,UL-Lafayette,23,Arkansas State,7,-1.0
+10/24/2013,Kentucky,22,Mississippi State,28,12.0
+10/24/2013,Marshall,49,Middle Tennessee,51,-9.5
+10/25/2013,Boise State,20,Brigham Young,37,6.5
+10/26/2013,Georgia Tech,35,Virginia,25,-10.0
+10/26/2013,Connecticut,17,U-C-F,62,24.5
+10/26/2013,Ball State,42,Akron,24,-9.5
+10/26/2013,Miami-Ohio,16,Ohio,41,26.0
+10/26/2013,Buffalo,41,Kent State,21,-3.0
+10/26/2013,Western Michigan,31,Massachusetts,30,4.5
+10/26/2013,Houston,49,Rutgers,14,7.0
+10/26/2013,Boston College,10,North Carolina,34,5.5
+10/26/2013,Clemson,40,Maryland,27,-16.5
+10/26/2013,Duke,13,Virginia Tech,10,12.0
+10/26/2013,Pittsburgh,21,Navy,24,-4.5
+10/26/2013,U-A-B,31,Texas-San Antonio,52,8.0
+10/26/2013,Temple,49,S-M-U,59,14.0
+10/26/2013,Eastern Michigan,20,Northern Illinois,59,31.5
+10/26/2013,Arizona,44,Colorado,20,-12.5
+10/26/2013,Vanderbilt,24,Texas A+M,56,17.5
+10/26/2013,Florida Atlantic,10,Auburn,45,23.0
+10/26/2013,Tennessee,10,Alabama,45,27.5
+10/26/2013,U.C.L.A.,14,Oregon,42,23.5
+10/26/2013,Utah,3,Southern Cal,19,4.5
+10/26/2013,Tulsa,7,Tulane,14,-3.0
+10/26/2013,California,17,Washington,41,28.0
+10/26/2013,West Virginia,12,Kansas State,35,13.0
+10/26/2013,Michigan State,42,Illinois,3,-8.0
+10/26/2013,Wake Forest,21,Miami-Florida,24,25.5
+10/26/2013,No Carolina State,17,Florida State,49,35.0
+10/26/2013,Texas Tech,30,Oklahoma,38,6.5
+10/26/2013,Texas,30,Texas Christian,7,3.0
+10/26/2013,Northwestern,10,Iowa,17,3.5
+10/26/2013,Nevada-Las Vegas,27,Nevada-Reno,22,6.0
+10/26/2013,Wyoming,44,San Jose State,51,10.5
+10/26/2013,Stanford,20,Oregon State,12,-4.0
+10/26/2013,Troy,32,Western Kentucky,26,10.0
+10/26/2013,Notre Dame,45,Air Force,10,-19.5
+10/26/2013,Georgia State,10,UL-Monroe,38,15.5
+10/26/2013,South Alabama,31,Texas State,33,-2.5
+10/26/2013,Idaho,14,Mississippi,59,41.5
+10/26/2013,North Texas,55,Southern Miss,14,-12.0
+10/26/2013,Louisiana Tech,23,Florida Intl,7,-4.5
+10/26/2013,South Carolina,27,Missouri,24,3.0
+10/26/2013,Oklahoma State,58,Iowa State,27,-12.5
+10/26/2013,Baylor,59,Kansas,14,-34.5
+10/26/2013,Nebraska,23,Minnesota,34,-10.0
+10/26/2013,Louisville,34,South Florida,3,-21.0
+10/26/2013,Toledo,28,Bowling Green,25,3.5
+10/26/2013,Penn State,14,Ohio State,63,15.0
+10/26/2013,UTEP,7,Rice,45,17.0
+10/26/2013,Fresno State,35,San Diego State,28,-6.0
+10/26/2013,Colorado State,35,Hawaii,28,-2.0
+10/26/2013,Abilene Christian,29,New Mexico State,34, 
+10/26/2013,Furman,16,Louisiana State,48, 
+10/30/2013,Cincinnati, ,Memphis, ,-3.0
+10/31/2013,South Florida, ,Houston, ,17.0
+10/31/2013,Rice, ,North Texas, ,5.5
+10/31/2013,UL-Monroe, ,Troy, ,3.5
+10/31/2013,Arizona State, ,Washington State, ,-12.5
+11/01/2013,Southern Cal, ,Oregon State, ,4.5
+11/02/2013,Clemson, ,Virginia, ,-17.0
+11/02/2013,Virginia Tech, ,Boston College, ,-4.5
+11/02/2013,Eastern Michigan, ,Toledo, ,28.5
+11/02/2013,Northern Illinois, ,Massachusetts, ,-23.0
+11/02/2013,Kent State, ,Akron, ,-1.0
+11/02/2013,Temple, ,Rutgers, ,14.5
+11/02/2013,Illinois, ,Penn State, ,10.0
+11/02/2013,Pittsburgh, ,Georgia Tech, ,9.5
+11/02/2013,Wake Forest, ,Syracuse, ,3.0
+11/02/2013,Western Kentucky, ,Georgia State, ,-19.0
+11/02/2013,Tennessee, ,Missouri, ,13.0
+11/02/2013,Iowa State, ,Kansas State, ,16.5
+11/02/2013,Southern Miss, ,Marshall, ,28.5
+11/02/2013,UTEP, ,Texas A+M, ,45.0
+11/02/2013,Middle Tennessee, ,U-A-B, ,-4.0
+11/02/2013,Texas-San Antonio, ,Tulsa, ,3.0
 11/02/2013,Army, ,Air Force, , 
-11/02/2013,West Virginia, ,Texas Christian, , 
-11/02/2013,Georgia, ,Florida, , 
-11/02/2013,Arizona, ,California, , 
-11/02/2013,Miami-Florida, ,Florida State, , 
-11/02/2013,Wisconsin, ,Iowa, , 
-11/02/2013,Michigan, ,Michigan State, , 
-11/02/2013,Ohio State, ,Purdue, , 
-11/02/2013,Minnesota, ,Indiana, , 
-11/02/2013,Colorado, ,U.C.L.A., , 
-11/02/2013,Navy, ,Notre Dame, , 
+11/02/2013,West Virginia, ,Texas Christian, ,13.5
+11/02/2013,Georgia, ,Florida, ,-2.5
+11/02/2013,Arizona, ,California, ,-14.5
+11/02/2013,Miami-Florida, ,Florida State, ,22.0
+11/02/2013,Wisconsin, ,Iowa, ,-8.5
+11/02/2013,Michigan, ,Michigan State, ,5.0
+11/02/2013,Ohio State, ,Purdue, ,-31.0
+11/02/2013,Minnesota, ,Indiana, ,9.5
+11/02/2013,Colorado, ,U.C.L.A., ,26.5
+11/02/2013,Navy, ,Notre Dame, ,16.5
 11/02/2013,Auburn, ,Arkansas, , 
-11/02/2013,Northwestern, ,Nebraska, , 
-11/02/2013,Arkansas State, ,South Alabama, , 
-11/02/2013,Hawaii, ,Utah State, , 
-11/02/2013,San Jose State, ,Nevada-Las Vegas, , 
-11/02/2013,New Mexico State, ,UL-Lafayette, , 
-11/02/2013,Texas State, ,Idaho, , 
-11/02/2013,North Carolina, ,No Carolina State, , 
-11/02/2013,Kansas, ,Texas, , 
-11/02/2013,Tulane, ,Florida Atlantic, , 
-11/02/2013,Oklahoma State, ,Texas Tech, , 
-11/02/2013,East Carolina, ,Florida Intl, , 
-11/02/2013,Nevada-Reno, ,Fresno State, , 
-11/02/2013,Mississippi State, ,South Carolina, , 
-11/02/2013,Boise State, ,Colorado State, , 
-11/02/2013,New Mexico, ,San Diego State, , 
+11/02/2013,Northwestern, ,Nebraska, ,7.5
+11/02/2013,Arkansas State, ,South Alabama, ,3.5
+11/02/2013,Hawaii, ,Utah State, ,21.5
+11/02/2013,San Jose State, ,Nevada-Las Vegas, ,-3.5
+11/02/2013,New Mexico State, ,UL-Lafayette, ,28.5
+11/02/2013,Texas State, ,Idaho, ,-11.0
+11/02/2013,North Carolina, ,No Carolina State, ,-3.5
+11/02/2013,Kansas, ,Texas, ,28.0
+11/02/2013,Tulane, ,Florida Atlantic, ,3.5
+11/02/2013,Oklahoma State, ,Texas Tech, ,1.5
+11/02/2013,East Carolina, ,Florida Intl, ,-21.5
+11/02/2013,Nevada-Reno, ,Fresno State, ,20.0
+11/02/2013,Mississippi State, ,South Carolina, ,12.5
+11/02/2013,Boise State, ,Colorado State, ,-8.0
+11/02/2013,New Mexico, ,San Diego State, ,16.0
 11/02/2013,Alabama State, ,Kentucky, , 
-11/05/2013,Bowling Green, ,Miami-Ohio, , 
 11/05/2013,Ohio, ,Buffalo, , 
+11/05/2013,Bowling Green, ,Miami-Ohio, , 
 11/06/2013,Central Michigan, ,Ball State, , 
 11/07/2013,Oklahoma, ,Baylor, , 
 11/07/2013,Troy, ,UL-Lafayette, , 
 11/07/2013,Oregon, ,Stanford, , 
 11/08/2013,Louisville, ,Connecticut, , 
 11/08/2013,Air Force, ,New Mexico, , 
-11/09/2013,Arkansas State, ,UL-Monroe, , 
-11/09/2013,Arkansas, ,Mississippi, , 
-11/09/2013,Auburn, ,Tennessee, , 
-11/09/2013,Old Dominion, ,Idaho, , 
+11/09/2013,Iowa, ,Purdue, , 
+11/09/2013,Western Kentucky, ,Army, , 
+11/09/2013,S-M-U, ,Cincinnati, , 
+11/09/2013,No Carolina State, ,Duke, , 
+11/09/2013,Tulsa, ,East Carolina, , 
+11/09/2013,Illinois, ,Indiana, , 
+11/09/2013,Texas Christian, ,Iowa State, , 
+11/09/2013,Florida State, ,Wake Forest, , 
 11/09/2013,U-A-B, ,Marshall, , 
 11/09/2013,Virginia Tech, ,Miami-Florida, , 
-11/09/2013,Western Kentucky, ,Army, , 
-11/09/2013,Virginia, ,North Carolina, , 
-11/09/2013,Western Michigan, ,Eastern Michigan, , 
-11/09/2013,Colorado, ,Washington, , 
-11/09/2013,Tulane, ,Texas-San Antonio, , 
-11/09/2013,Appalachian State, ,Georgia, , 
-11/09/2013,Florida State, ,Wake Forest, , 
-11/09/2013,Hawaii, ,Navy, , 
-11/09/2013,Illinois, ,Indiana, , 
-11/09/2013,Iowa, ,Purdue, , 
-11/09/2013,Louisiana State, ,Alabama, , 
-11/09/2013,No Carolina State, ,Duke, , 
-11/09/2013,Notre Dame, ,Pittsburgh, , 
-11/09/2013,Nebraska, ,Michigan, , 
 11/09/2013,Penn State, ,Minnesota, , 
-11/09/2013,Tulsa, ,East Carolina, , 
-11/09/2013,UTEP, ,North Texas, , 
-11/09/2013,Vanderbilt, ,Florida, , 
-11/09/2013,Florida Intl, ,Middle Tennessee, , 
-11/09/2013,Tennessee-Martin, ,Memphis, , 
-11/09/2013,Fresno State, ,Wyoming, , 
-11/09/2013,Houston, ,U-C-F, , 
-11/09/2013,Kansas State, ,Texas Tech, , 
-11/09/2013,Southern Cal, ,California, , 
-11/09/2013,Southern Miss, ,Louisiana Tech, , 
-11/09/2013,Kansas, ,Oklahoma State, , 
-11/09/2013,Missouri, ,Kentucky, , 
-11/09/2013,Mississippi State, ,Texas A+M, , 
 11/09/2013,Syracuse, ,Maryland, , 
-11/09/2013,Texas Christian, ,Iowa State, , 
-11/09/2013,Texas, ,West Virginia, , 
-11/09/2013,Boston College, ,New Mexico State, , 
+11/09/2013,Missouri, ,Kentucky, , 
+11/09/2013,Virginia, ,North Carolina, , 
+11/09/2013,Vanderbilt, ,Florida, , 
+11/09/2013,Western Michigan, ,Eastern Michigan, , 
+11/09/2013,Tulane, ,Texas-San Antonio, , 
+11/09/2013,Fresno State, ,Wyoming, , 
+11/09/2013,Kansas State, ,Texas Tech, , 
 11/09/2013,Brigham Young, ,Wisconsin, , 
+11/09/2013,Arkansas, ,Mississippi, , 
 11/09/2013,Nevada-Reno, ,Colorado State, , 
-11/09/2013,S-M-U, ,Cincinnati, , 
-11/09/2013,Utah State, ,Nevada-Las Vegas, , 
+11/09/2013,Colorado, ,Washington, , 
+11/09/2013,Texas, ,West Virginia, , 
 11/09/2013,Arizona State, ,Utah, , 
-11/09/2013,San Diego State, ,San Jose State, , 
+11/09/2013,Nebraska, ,Michigan, , 
+11/09/2013,Hawaii, ,Navy, , 
+11/09/2013,UTEP, ,North Texas, , 
+11/09/2013,Kansas, ,Oklahoma State, , 
+11/09/2013,Southern Cal, ,California, , 
+11/09/2013,Notre Dame, ,Pittsburgh, , 
+11/09/2013,Mississippi State, ,Texas A+M, , 
+11/09/2013,Boston College, ,New Mexico State, , 
+11/09/2013,Utah State, ,Nevada-Las Vegas, , 
+11/09/2013,Florida Intl, ,Middle Tennessee, , 
+11/09/2013,Arkansas State, ,UL-Monroe, , 
+11/09/2013,Southern Miss, ,Louisiana Tech, , 
+11/09/2013,Auburn, ,Tennessee, , 
+11/09/2013,Houston, ,U-C-F, , 
 11/09/2013,U.C.L.A., ,Arizona, , 
-11/12/2013,Buffalo, ,Toledo, , 
+11/09/2013,Louisiana State, ,Alabama, , 
+11/09/2013,San Diego State, ,San Jose State, , 
+11/09/2013,Old Dominion, ,Idaho, , 
+11/09/2013,Appalachian State, ,Georgia, , 
+11/09/2013,Tennessee-Martin, ,Memphis, , 
 11/12/2013,Ohio, ,Bowling Green, , 
+11/12/2013,Buffalo, ,Toledo, , 
 11/13/2013,Ball State, ,Northern Illinois, , 
 11/13/2013,Miami-Ohio, ,Kent State, , 
 11/14/2013,Georgia Tech, ,Clemson, , 
 11/14/2013,Marshall, ,Tulsa, , 
 11/15/2013,Washington, ,U.C.L.A., , 
-11/16/2013,Georgia, ,Auburn, , 
-11/16/2013,Texas State, ,Arkansas State, , 
-11/16/2013,U-C-F, ,Temple, , 
-11/16/2013,Central Michigan, ,Western Michigan, , 
-11/16/2013,North Carolina, ,Pittsburgh, , 
-11/16/2013,Akron, ,Massachusetts, , 
-11/16/2013,UL-Lafayette, ,Georgia State, , 
-11/16/2013,Idaho State, ,Brigham Young, , 
-11/16/2013,Alabama, ,Mississippi State, , 
-11/16/2013,Connecticut, ,S-M-U, , 
-11/16/2013,Florida, ,South Carolina, , 
-11/16/2013,Indiana, ,Wisconsin, , 
-11/16/2013,Michigan State, ,Nebraska, , 
 11/16/2013,Miami-Florida, ,Duke, , 
-11/16/2013,Michigan, ,Northwestern, , 
-11/16/2013,Ohio State, ,Illinois, , 
-11/16/2013,South Alabama, ,Navy, , 
-11/16/2013,Syracuse, ,Florida State, , 
-11/16/2013,U-A-B, ,East Carolina, , 
-11/16/2013,Florida Intl, ,UTEP, , 
-11/16/2013,Memphis, ,South Florida, , 
-11/16/2013,Florida Atlantic, ,Southern Miss, , 
-11/16/2013,California, ,Colorado, , 
-11/16/2013,Houston, ,Louisville, , 
-11/16/2013,Louisiana Tech, ,Rice, , 
-11/16/2013,San Jose State, ,Nevada-Reno, , 
-11/16/2013,Texas Christian, ,Kansas State, , 
-11/16/2013,Iowa State, ,Oklahoma, , 
+11/16/2013,Indiana, ,Wisconsin, , 
 11/16/2013,Kentucky, ,Vanderbilt, , 
+11/16/2013,Houston, ,Louisville, , 
+11/16/2013,Central Michigan, ,Western Michigan, , 
 11/16/2013,Maryland, ,Virginia Tech, , 
-11/16/2013,Oklahoma State, ,Texas, , 
-11/16/2013,Texas Tech, ,Baylor, , 
-11/16/2013,West Virginia, ,Kansas, , 
-11/16/2013,Cincinnati, ,Rutgers, , 
-11/16/2013,Colorado State, ,New Mexico, , 
 11/16/2013,No Carolina State, ,Boston College, , 
+11/16/2013,Cincinnati, ,Rutgers, , 
+11/16/2013,North Carolina, ,Pittsburgh, , 
+11/16/2013,U-C-F, ,Temple, , 
 11/16/2013,Purdue, ,Penn State, , 
-11/16/2013,Troy, ,Mississippi, , 
+11/16/2013,Florida, ,South Carolina, , 
+11/16/2013,Michigan, ,Northwestern, , 
+11/16/2013,Syracuse, ,Florida State, , 
+11/16/2013,Florida Atlantic, ,Southern Miss, , 
+11/16/2013,Akron, ,Massachusetts, , 
+11/16/2013,U-A-B, ,East Carolina, , 
+11/16/2013,Connecticut, ,S-M-U, , 
+11/16/2013,West Virginia, ,Kansas, , 
+11/16/2013,UL-Lafayette, ,Georgia State, , 
+11/16/2013,California, ,Colorado, , 
+11/16/2013,Texas Tech, ,Baylor, , 
 11/16/2013,Wyoming, ,Boise State, , 
-11/16/2013,Stanford, ,Southern Cal, , 
-11/16/2013,Utah, ,Oregon, , 
 11/16/2013,Oregon State, ,Arizona State, , 
-11/16/2013,San Diego State, ,Hawaii, , 
+11/16/2013,Georgia, ,Auburn, , 
+11/16/2013,Oklahoma State, ,Texas, , 
+11/16/2013,Iowa State, ,Oklahoma, , 
+11/16/2013,Utah, ,Oregon, , 
+11/16/2013,South Alabama, ,Navy, , 
+11/16/2013,Michigan State, ,Nebraska, , 
+11/16/2013,Ohio State, ,Illinois, , 
+11/16/2013,San Jose State, ,Nevada-Reno, , 
+11/16/2013,Alabama, ,Mississippi State, , 
+11/16/2013,Stanford, ,Southern Cal, , 
+11/16/2013,Colorado State, ,New Mexico, , 
+11/16/2013,Memphis, ,South Florida, , 
+11/16/2013,Louisiana Tech, ,Rice, , 
+11/16/2013,Texas Christian, ,Kansas State, , 
+11/16/2013,Troy, ,Mississippi, , 
+11/16/2013,Texas State, ,Arkansas State, , 
+11/16/2013,Florida Intl, ,UTEP, , 
 11/16/2013,Washington State, ,Arizona, , 
+11/16/2013,San Diego State, ,Hawaii, , 
+11/16/2013,Idaho State, ,Brigham Young, , 
 11/19/2013,Buffalo, ,Miami-Ohio, , 
 11/19/2013,Kent State, ,Ohio, , 
 11/20/2013,Northern Illinois, ,Toledo, , 
-11/21/2013,Rice, ,U-A-B, , 
 11/21/2013,Rutgers, ,U-C-F, , 
+11/21/2013,Rice, ,U-A-B, , 
 11/21/2013,Nevada-Las Vegas, ,Air Force, , 
 11/22/2013,Navy, ,San Jose State, , 
-11/23/2013,Georgia State, ,Arkansas State, , 
-11/23/2013,Mississippi State, ,Arkansas, , 
 11/23/2013,Nebraska, ,Penn State, , 
-11/23/2013,Virginia, ,Miami-Florida, , 
-11/23/2013,Old Dominion, ,North Carolina, , 
-11/23/2013,Bowling Green, ,Eastern Michigan, , 
-11/23/2013,Massachusetts, ,Central Michigan, , 
-11/23/2013,Pittsburgh, ,Syracuse, , 
-11/23/2013,Southern Cal, ,Colorado, , 
-11/23/2013,Hawaii, ,Wyoming, , 
-11/23/2013,Brigham Young, ,Notre Dame, , 
-11/23/2013,Chattanooga, ,Alabama, , 
-11/23/2013,Connecticut, ,Temple, , 
-11/23/2013,Colorado State, ,Utah State, , 
-11/23/2013,Duke, ,Wake Forest, , 
-11/23/2013,East Carolina, ,No Carolina State, , 
-11/23/2013,Georgia Southern, ,Florida, , 
-11/23/2013,Idaho, ,Florida State, , 
 11/23/2013,Illinois, ,Purdue, , 
+11/23/2013,Pittsburgh, ,Syracuse, , 
+11/23/2013,Connecticut, ,Temple, , 
 11/23/2013,Indiana, ,Ohio State, , 
-11/23/2013,Kentucky, ,Georgia, , 
 11/23/2013,Michigan State, ,Northwestern, , 
-11/23/2013,Michigan, ,Iowa, , 
-11/23/2013,UL-Monroe, ,South Alabama, , 
-11/23/2013,Texas-San Antonio, ,North Texas, , 
-11/23/2013,UTEP, ,Tulane, , 
-11/23/2013,Vanderbilt, ,Tennessee, , 
-11/23/2013,Wisconsin, ,Minnesota, , 
+11/23/2013,East Carolina, ,No Carolina State, , 
+11/23/2013,Idaho, ,Florida State, , 
 11/23/2013,Marshall, ,Florida Intl, , 
-11/23/2013,Middle Tennessee, ,Southern Miss, , 
-11/23/2013,New Mexico State, ,Florida Atlantic, , 
-11/23/2013,Coastal Carolina, ,South Carolina, , 
-11/23/2013,California, ,Stanford, , 
-11/23/2013,New Mexico, ,Fresno State, , 
-11/23/2013,Oklahoma, ,Kansas State, , 
-11/23/2013,Tulsa, ,Louisiana Tech, , 
-11/23/2013,Western Kentucky, ,Texas State, , 
-11/23/2013,Alabama A+M, ,Georgia Tech, , 
-11/23/2013,Baylor, ,Oklahoma State, , 
-11/23/2013,The Citadel, ,Clemson, , 
+11/23/2013,Kentucky, ,Georgia, , 
 11/23/2013,Kansas, ,Iowa State, , 
+11/23/2013,Duke, ,Wake Forest, , 
 11/23/2013,Boston College, ,Maryland, , 
+11/23/2013,Wisconsin, ,Minnesota, , 
+11/23/2013,Virginia, ,Miami-Florida, , 
 11/23/2013,Cincinnati, ,Houston, , 
 11/23/2013,Memphis, ,Louisville, , 
-11/23/2013,Missouri, ,Mississippi, , 
-11/23/2013,S-M-U, ,South Florida, , 
-11/23/2013,Texas A+M, ,Louisiana State, , 
-11/23/2013,Washington, ,Oregon State, , 
-11/23/2013,Utah, ,Washington State, , 
+11/23/2013,Vanderbilt, ,Tennessee, , 
+11/23/2013,Massachusetts, ,Central Michigan, , 
+11/23/2013,Bowling Green, ,Eastern Michigan, , 
+11/23/2013,Hawaii, ,Wyoming, , 
+11/23/2013,Western Kentucky, ,Texas State, , 
+11/23/2013,Michigan, ,Iowa, , 
 11/23/2013,Arizona State, ,U.C.L.A., , 
-11/23/2013,Boise State, ,San Diego State, , 
+11/23/2013,Colorado State, ,Utah State, , 
+11/23/2013,Southern Cal, ,Colorado, , 
+11/23/2013,Texas A+M, ,Louisiana State, , 
+11/23/2013,Mississippi State, ,Arkansas, , 
 11/23/2013,Oregon, ,Arizona, , 
+11/23/2013,UTEP, ,Tulane, , 
+11/23/2013,California, ,Stanford, , 
+11/23/2013,Texas-San Antonio, ,North Texas, , 
+11/23/2013,Brigham Young, ,Notre Dame, , 
+11/23/2013,Baylor, ,Oklahoma State, , 
+11/23/2013,Middle Tennessee, ,Southern Miss, , 
+11/23/2013,Georgia State, ,Arkansas State, , 
+11/23/2013,Washington, ,Oregon State, , 
+11/23/2013,UL-Monroe, ,South Alabama, , 
+11/23/2013,S-M-U, ,South Florida, , 
+11/23/2013,New Mexico, ,Fresno State, , 
+11/23/2013,New Mexico State, ,Florida Atlantic, , 
+11/23/2013,Tulsa, ,Louisiana Tech, , 
+11/23/2013,Oklahoma, ,Kansas State, , 
+11/23/2013,Missouri, ,Mississippi, , 
+11/23/2013,Utah, ,Washington State, , 
+11/23/2013,Boise State, ,San Diego State, , 
+11/23/2013,Old Dominion, ,North Carolina, , 
+11/23/2013,Chattanooga, ,Alabama, , 
+11/23/2013,Georgia Southern, ,Florida, , 
+11/23/2013,Coastal Carolina, ,South Carolina, , 
+11/23/2013,Alabama A+M, ,Georgia Tech, , 
+11/23/2013,The Citadel, ,Clemson, , 
 11/26/2013,Western Michigan, ,Northern Illinois, , 
-11/28/2013,Mississippi, ,Mississippi State, , 
 11/28/2013,Texas Tech, ,Texas, , 
-11/29/2013,East Carolina, ,Marshall, , 
+11/28/2013,Mississippi, ,Mississippi State, , 
 11/29/2013,Iowa, ,Nebraska, , 
-11/29/2013,Miami-Florida, ,Pittsburgh, , 
-11/29/2013,Massachusetts, ,Ohio, , 
 11/29/2013,Toledo, ,Akron, , 
+11/29/2013,Miami-Ohio, ,Ball State, , 
+11/29/2013,Eastern Michigan, ,Central Michigan, , 
+11/29/2013,Massachusetts, ,Ohio, , 
+11/29/2013,East Carolina, ,Marshall, , 
 11/29/2013,Bowling Green, ,Buffalo, , 
 11/29/2013,Arkansas, ,Louisiana State, , 
-11/29/2013,Eastern Michigan, ,Central Michigan, , 
-11/29/2013,Florida Intl, ,Florida Atlantic, , 
-11/29/2013,Fresno State, ,San Jose State, , 
-11/29/2013,Washington State, ,Washington, , 
-11/29/2013,Oregon State, ,Oregon, , 
-11/29/2013,South Florida, ,U-C-F, , 
-11/29/2013,S-M-U, ,Houston, , 
 11/29/2013,Texas State, ,Troy, , 
-11/29/2013,Miami-Ohio, ,Ball State, , 
-11/30/2013,Idaho, ,New Mexico State, , 
-11/30/2013,Army, ,Hawaii, , 
-11/30/2013,Wake Forest, ,Vanderbilt, , 
-11/30/2013,Colorado, ,Utah, , 
-11/30/2013,UL-Monroe, ,UL-Lafayette, , 
-11/30/2013,South Alabama, ,Georgia State, , 
-11/30/2013,Brigham Young, ,Nevada-Reno, , 
-11/30/2013,Tulane, ,Rice, , 
-11/30/2013,Alabama, ,Auburn, , 
-11/30/2013,Duke, ,North Carolina, , 
-11/30/2013,Florida State, ,Florida, , 
-11/30/2013,Georgia, ,Georgia Tech, , 
-11/30/2013,Minnesota, ,Michigan State, , 
-11/30/2013,Notre Dame, ,Stanford, , 
-11/30/2013,North Texas, ,Tulsa, , 
-11/30/2013,Northwestern, ,Illinois, , 
+11/29/2013,Florida Intl, ,Florida Atlantic, , 
+11/29/2013,South Florida, ,U-C-F, , 
+11/29/2013,Fresno State, ,San Jose State, , 
+11/29/2013,Miami-Florida, ,Pittsburgh, , 
+11/29/2013,Washington State, ,Washington, , 
+11/29/2013,S-M-U, ,Houston, , 
+11/29/2013,Oregon State, ,Oregon, , 
 11/30/2013,Ohio State, ,Michigan, , 
+11/30/2013,Boston College, ,Syracuse, , 
+11/30/2013,Maryland, ,No Carolina State, , 
+11/30/2013,Wake Forest, ,Vanderbilt, , 
+11/30/2013,Duke, ,North Carolina, , 
+11/30/2013,Iowa State, ,West Virginia, , 
+11/30/2013,Northwestern, ,Illinois, , 
 11/30/2013,Purdue, ,Indiana, , 
 11/30/2013,Rutgers, ,Connecticut, , 
-11/30/2013,Virginia Tech, ,Virginia, , 
-11/30/2013,Wyoming, ,Utah State, , 
-11/30/2013,Arkansas State, ,Western Kentucky, , 
-11/30/2013,UTEP, ,Middle Tennessee, , 
-11/30/2013,Temple, ,Memphis, , 
-11/30/2013,Louisiana Tech, ,Texas-San Antonio, , 
-11/30/2013,Southern Miss, ,U-A-B, , 
-11/30/2013,Baylor, ,Texas Christian, , 
-11/30/2013,Clemson, ,South Carolina, , 
-11/30/2013,Iowa State, ,West Virginia, , 
-11/30/2013,Kansas State, ,Kansas, , 
-11/30/2013,Maryland, ,No Carolina State, , 
 11/30/2013,Tennessee, ,Kentucky, , 
-11/30/2013,Boston College, ,Syracuse, , 
-11/30/2013,Penn State, ,Wisconsin, , 
+11/30/2013,Minnesota, ,Michigan State, , 
+11/30/2013,Temple, ,Memphis, , 
+11/30/2013,Southern Miss, ,U-A-B, , 
+11/30/2013,South Alabama, ,Georgia State, , 
+11/30/2013,Wyoming, ,Utah State, , 
+11/30/2013,Colorado, ,Utah, , 
+11/30/2013,Brigham Young, ,Nevada-Reno, , 
+11/30/2013,Tulane, ,Rice, , 
+11/30/2013,Georgia, ,Georgia Tech, , 
 11/30/2013,Texas A+M, ,Missouri, , 
-11/30/2013,U.C.L.A., ,Southern Cal, , 
-11/30/2013,Air Force, ,Colorado State, , 
-11/30/2013,Arizona, ,Arizona State, , 
+11/30/2013,Virginia Tech, ,Virginia, , 
+11/30/2013,Alabama, ,Auburn, , 
 11/30/2013,New Mexico, ,Boise State, , 
+11/30/2013,Baylor, ,Texas Christian, , 
+11/30/2013,Florida State, ,Florida, , 
+11/30/2013,Air Force, ,Colorado State, , 
+11/30/2013,Kansas State, ,Kansas, , 
+11/30/2013,Penn State, ,Wisconsin, , 
+11/30/2013,Louisiana Tech, ,Texas-San Antonio, , 
+11/30/2013,Idaho, ,New Mexico State, , 
 11/30/2013,San Diego State, ,Nevada-Las Vegas, , 
+11/30/2013,Arkansas State, ,Western Kentucky, , 
+11/30/2013,North Texas, ,Tulsa, , 
+11/30/2013,UL-Monroe, ,UL-Lafayette, , 
+11/30/2013,UTEP, ,Middle Tennessee, , 
+11/30/2013,Clemson, ,South Carolina, , 
+11/30/2013,U.C.L.A., ,Southern Cal, , 
+11/30/2013,Notre Dame, ,Stanford, , 
+11/30/2013,Arizona, ,Arizona State, , 
+11/30/2013,Army, ,Hawaii, , 
 12/05/2013,Louisville, ,Cincinnati, , 
-12/07/2013,UL-Lafayette, ,South Alabama, , 
-12/07/2013,Fresno State, ,Colorado, , 
+12/06/2013,MAC #2, ,MAC #1, , 
 12/07/2013,Memphis, ,Connecticut, , 
-12/07/2013,Oklahoma, ,Oklahoma State, , 
+12/07/2013,Conference USA #2, ,Conference USA #1, , 
 12/07/2013,South Florida, ,Rutgers, , 
 12/07/2013,Texas, ,Baylor, , 
+12/07/2013,UL-Lafayette, ,South Alabama, , 
 12/07/2013,U-C-F, ,S-M-U, , 
+12/07/2013,Oklahoma, ,Oklahoma State, , 
+12/07/2013,SEC #2, ,SEC #1, , 
+12/07/2013,ACC #2, ,ACC #1, , 
+12/07/2013,Pac 12 #2, ,Pac 12 #1, , 
+12/07/2013,Big Ten #2, ,Big Ten #1, , 
+12/07/2013,Mountain West #2, ,Mountain West #1, , 
 12/14/2013,Army, ,Navy, , 
