@@ -71,8 +71,8 @@ TODO
 Data sources
 ============
 
-Data for the implemented algorithms is graciously provided by `Warren
-Repole`_ through his `Sunshine Forecast`_ web site.
+Data is graciously provided by `Warren Repole`_ through his `Sunshine
+Forecast`_ web site.
 
 .. _Warren Repole: http://repole.com/
 .. _Sunshine Forecast: http://www.repole.com/sun4cast/data.html

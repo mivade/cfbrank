@@ -1,0 +1,112 @@
+{
+    "AAC": {
+	"name": "American Athletic Conference",
+	"division": "FBS",
+	"headquarters": "Providence, RI"
+    },
+    "ACC": {
+	"name": "Atlantic Coast Conference",
+	"division": "FBS",
+	"headquarters": "Greensboro, NC"
+    },
+    "B1G": {
+	"name": "Big Ten Conference",
+	"division": "FBS",
+	"headquarters": "Rosemont, IL"
+    },
+    "Big 12": {
+	"name": "Big 12 Conference",
+	"division": "FBS",
+	"headquarters": "Irving, TX"
+    },
+    "C-USA": {
+	"name": "Conference USA",
+	"division": "FBS",
+	"headquarters": "Irving, TX"
+    },
+    "MAC": {
+	"name": "Mid-American Conference",
+	"division": "FBS",
+	"headquarters": "Cleveland, OH"
+    },
+    "MWC": {
+	"name": "Mountain West Conference",
+	"division": "FBS",
+	"headquarters": "Colorado Springs, CO"
+    },
+    "Pac-12": {
+	"name": "Pacific-12 Conference",
+	"division": "FBS",
+	"headquarters": "Walnut Creek, CA"
+    },
+    "SEC": {
+	"name": "Southeastern Conference",
+	"division": "FBS",
+	"headquarters": " Birmingham, AL"
+    },
+    "Sun Belt": {
+	"name": "Sun Belt Conference",
+	"division": "FBS",
+	"headquarters": "New Orleans, LA"
+    },
+    "Big Sky": {
+	"name": "Big Sky Conference",
+	"division": "FCS",
+	"headquarters": "Ogden, UT"
+    },
+    "Big South": {
+	"name": "Big South Conference",
+	"division": "FCS",
+	"headquarters": "Charlotte, NC"
+    },
+    "CAA": {
+	"name": "Colonial Athletic Association",
+	"division": "FCS",
+	"headquarters": "Richmond, VA"
+    },
+    "Ivy League": {
+	"name": "Ivy League",
+	"division": "FCS",
+	"headquarters": "Princeton, NJ"
+    },
+    "MVFC": {
+	"name": "Missouri Valley Football Conference",
+	"division": "FCS",
+	"headquarters": "St. Louis, MO"
+    },
+    "NEC": {
+	"name": "Northeast Conference",
+	"division": "FCS",
+	"headquarters": "Somerset, New Jersey"
+    },
+    "OVC": {
+	"name": "Ohio Valley Conference",
+	"division": "FCS",
+	"headquarters": "Brentwood, TN"
+    },
+    "Patriot": {
+	"name": "Patriot League",
+	"division": "FCS",
+	"headquarters": "Center Valley, PA"
+    },
+    "PFL": {
+	"name": "Pioneer Football League",
+	"division": "FCS",
+	"headquarters": "St. Louis, MO"
+    },
+    "SoCon": {
+	"name": "Southern Conference",
+	"division": "FCS",
+	"headquarters": "Spartanburg, SC"
+    },
+    "Southland": {
+	"name": "Southland Conference",
+	"division": "FCS",
+	"headquarters": "Frisco, TX"
+    },
+    "SWAC": {
+	"name": "Southwestern Athletic Conference",
+	"division": "FCS",
+	"headquarters": "Birmingham, AL"
+    }
+}

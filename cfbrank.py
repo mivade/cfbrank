@@ -125,6 +125,32 @@ class Team(object):
 
 class Conference(object):
     """Conference object for computing conference statistics."""
+    def __init__(self, short_name, long_name='', teams=[]):
+        """Create a new Conference object.
+
+        Parameters
+        ----------
+        short_name : str
+            The "short" name for the conference, e.g., "SEC".
+        long_name : str
+            The "long" name for the conference, e.g., "Southeastern
+            Conference".
+        teams : list
+            A list of strings giving the names of teams in the
+            conference.
+
+        """
+        assert isinstance(short_name, (str, unicode))
+        self.short_name = short_name
+        assert isinstance(long_name, (str, unicode))
+        self.long_name = long_name
+        self.team_names = teams
+
+    def get_record(self):
+        """Return the overall conference record, i.e., the total
+        number of wins and losses of all teams in the conference.
+
+        """
 
 # Main
 # =============================================================================
@@ -147,7 +173,7 @@ if __name__ == "__main__":
     # Configure logging
     logging.basicConfig(level=logging.INFO)
 
-    # Load data
+    # Load season statistics data
     conf_file = config['filename']
     backup_file = conf_file + '.bak'
     if args.purge and os.path.exists(conf_file):
@@ -167,6 +193,10 @@ if __name__ == "__main__":
         with open(config['filename'], 'w') as dfile:
             dfile.write(urllib.urlopen(config['data_url']).read())
     data = pd.read_csv(config['filename'])
+
+    # Load conference and team data
+    conferences_def = pd.read_json(config['conferences'])
+    teams_def = pd.read_csv(config['teams'])
 
     # Testing of records computing
     texas = Team('Texas', 'Longhorns', conference='Big 12')
