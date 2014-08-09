@@ -1,0 +1,9 @@
+{
+    "algorithms": ["original", "AWPMOV", "park-newman"],
+    "divisions": ["FBS", "FCS"],
+    "weights": [0.7, 0.7],
+    "penalties": [0.9],
+    "filename": "sunshine2013.csv",
+    "data_url": "http://repole.com/sun4cast/stats/cfb2013stats.csv",
+    "table": "stats"
+}

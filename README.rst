@@ -63,19 +63,19 @@ or `arXiv:physics/0505169`__. This method is not yet implemented.
 __ http://iopscience.iop.org/1742-5468/2005/10/P10014
 __ http://arxiv.org/abs/physics/0505169
 
-Data entry
-==========
+Usage
+=====
 
-Perhaps the most daunting thing about developing a CFB ranking
-algorithm is entering a season's worth of data (even if only one week
-at a time!). Luckily, there are a number of places on the web where
-basic data can be downloaded in simple CSV format. Right now, cfbrank
-has functionality provided by the dataparse module to parse CSV files
-from `Sunshine Forecast`_, the NCAA_ [#]_, and `cfbstats.com`_ (soon).
+TODO
 
+Data sources
+============
+
+Data for the implemented algorithms is graciously provided by `Warren
+Repole`_ through his `Sunshine Forecast`_ web site.
+
+.. _Warren Repole: http://repole.com/
 .. _Sunshine Forecast: http://www.repole.com/sun4cast/data.html
-.. _NCAA: http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Football/index.html
-.. _cfbstats.com: http://www.cfbstats.com/blog/college-football-data/
 
 .. [#] One complication is that not all teams play the same number of
        games. The base 12 game schedule is standard, but the "Hawaii
@@ -89,6 +89,3 @@ from `Sunshine Forecast`_, the NCAA_ [#]_, and `cfbstats.com`_ (soon).
        to provide an extra rankings boost to a team that participates
        in a CCG in a conference where their opponent is of much lower
        quality.
-
-.. [#] As of September 2013, the downloadable NCAA schedules no longer
-       include scores, making this data source deprecated.

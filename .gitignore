@@ -1,4 +1,8 @@
 *~
+sunshine*.csv
+sunshine*.csv.bak
+*.sql*
+test.csv
 
 *.py[cod]
 
