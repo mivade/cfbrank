@@ -1,126 +1,126 @@
-School,Conference
-Air Force,MWC
-Akron,MAC
-Alabama,SEC
-Arizona,Pac-12
-Arizona State,Pac-12
-Arkansas,SEC
-Arkansas State,Sun Belt
-Army,
-Auburn,SEC
-Ball State,MAC
-Baylor,Big 12
-Boise State,MWC
-Boston College,ACC
-Bowling Green,MAC
-Brigham Young,
-Buffalo,MAC
-California,Pac-12
-Central Michigan,MAC
-Cincinnati,AAC
-Clemson,ACC
-Colorado,Pac-12
-Colorado State,MWC
-Connecticut,AAC
-Duke,ACC
-East Carolina,AAC
-Eastern Michigan,MAC
-Florida,SEC
-Florida Atlantic,C-USA
-Florida Intl,C-USA
-Florida State,ACC
-Fresno State,MWC
-Georgia,SEC
-Georgia State,Sun Belt
-Georgia Tech,ACC
-Hawaii,MWC
-Houston,AAC
-Idaho,Sun Belt
-Illinois,B1G
-Indiana,B1G
-Iowa,B1G
-Iowa State,Big 12
-Kansas,Big 12
-Kansas State,Big 12
-Kent State,MAC
-Kentucky,SEC
-Louisiana State,SEC
-Louisiana Tech,C-USA
-Louisville,ACC
-Marshall,C-USA
-Maryland,B1G
-Massachusetts,MAC
-Memphis,AAC
-Miami-Florida,ACC
-Miami-Ohio,MAC
-Michigan,B1G
-Michigan State,B1G
-Middle Tennessee,C-USA
-Minnesota,B1G
-Mississippi,SEC
-Mississippi State,SEC
-Missouri,SEC
-Navy,
-Nebraska,B1G
-Nevada-Las Vegas,MWC
-Nevada-Reno,MWC
-New Mexico,MWC
-New Mexico State,Sun Belt
-No Carolina State,ACC
-North Carolina,ACC
-North Texas,C-USA
-Northern Illinois,MAC
-Northwestern,B1G
-Notre Dame,
-Ohio,MAC
-Ohio State,B1G
-Oklahoma,Big 12
-Oklahoma State,Big 12
-Oregon,Pac-12
-Oregon State,Pac-12
-Penn State,B1G
-Pittsburgh,ACC
-Purdue,B1G
-Rice,C-USA
-Rutgers,B1G
-S-M-U,AAC
-San Diego State,MWC
-San Jose State,MWC
-South Alabama,Sun Belt
-South Carolina,SEC
-South Florida,AAC
-Southern Cal,Pac-12
-Southern Miss,C-USA
-Stanford,Pac-12
-Syracuse,ACC
-Temple,AAC
-Tennessee,SEC
-Texas,Big 12
-Texas A+M,SEC
-Texas Christian,Big 12
-Texas State,Sun Belt
-Texas Tech,Big 12
-Texas-San Antonio,C-USA
-Toledo,MAC
-Troy,Sun Belt
-Tulane,AAC
-Tulsa,ACC
-U-A-B,C-USA
-U-C-F,AAC
-U.C.L.A.,Pac-12
-UL-Lafayette,Sun Belt
-UL-Monroe,Sun Belt
-UTEP,C-USA
-Utah,Pac-12
-Utah State,MWC
-Vanderbilt,SEC
-Virginia,ACC
-Virginia Tech,ACC
-Wake Forest,ACC
-Washington,Pac-12
-Washington State,Pac-12
-West Virginia,Big 12
-Western Kentucky,C-USA
-Western Michigan,MAC
-Wisconsin,B1G
-Wyoming,MWC
+School,Nickname,Conference,Division
+Air Force,Falcons,MWC,FBS
+Akron,Zips,MAC,FBS
+Alabama,Crimson Tide,SEC,FBS
+Arizona,Wildcats,Pac-12,FBS
+Arizona State,Sun Devils,Pac-12,FBS
+Arkansas,Razorbacks,SEC,FBS
+Arkansas State,Red Wolves,Sun Belt,FBS
+Army,Black Knights,,FBS
+Auburn,Tigers,SEC,FBS
+Ball State,Cardinals,MAC,FBS
+Baylor,Bears,Big 12,FBS
+Boise State,Broncos,MWC,FBS
+Boston College,Eagles,ACC,FBS
+Bowling Green,Falcons,MAC,FBS
+Brigham Young,Cougars,,FBS
+Buffalo,Bulls,MAC,FBS
+California,Golden Bears,Pac-12,FBS
+Central Michigan,Chippewas,MAC,FBS
+Cincinnati,Bearcats,AAC,FBS
+Clemson,Tigers,ACC,FBS
+Colorado,Buffaloes,Pac-12,FBS
+Colorado State,Rams,MWC,FBS
+Connecticut,Huskies,AAC,FBS
+Duke,Blue Devils,ACC,FBS
+East Carolina,Pirates,AAC,FBS
+Eastern Michigan,Eagles,MAC,FBS
+Florida,Gators,SEC,FBS
+Florida Atlantic,Owls,C-USA,FBS
+Florida Intl,Golden Panthers,C-USA,FBS
+Florida State,Seminoles,ACC,FBS
+Fresno State,Bulldogs,MWC,FBS
+Georgia,Bulldogs,SEC,FBS
+Georgia State,Panthers,Sun Belt,FBS
+Georgia Tech,Yellow Jackets,ACC,FBS
+Hawaii,Rainbow Warriors,MWC,FBS
+Houston,Cougars,AAC,FBS
+Idaho,Vandals,Sun Belt,FBS
+Illinois,Fighting Illini,B1G,FBS
+Indiana,Hoosiers,B1G,FBS
+Iowa,Hawkeyes,B1G,FBS
+Iowa State,Cyclones,Big 12,FBS
+Kansas,Jayhawks,Big 12,FBS
+Kansas State,Wildcats,Big 12,FBS
+Kent State,Golden Flashes,MAC,FBS
+Kentucky,Wildcats,SEC,FBS
+Louisiana State,Tigers,SEC,FBS
+Louisiana Tech,Bulldogs,C-USA,FBS
+Louisville,Cardinals,ACC,FBS
+Marshall,Thundering Herd,C-USA,FBS
+Maryland,Terrapins,B1G,FBS
+Massachusetts,Minutemen,MAC,FBS
+Memphis,Tigers,AAC,FBS
+Miami-Florida,Hurricanes,ACC,FBS
+Miami-Ohio,Redhawks,MAC,FBS
+Michigan,Wolverines,B1G,FBS
+Michigan State,Spartans,B1G,FBS
+Middle Tennessee,Blue Raiders,C-USA,FBS
+Minnesota,Golden Gophers,B1G,FBS
+Mississippi,Rebels,SEC,FBS
+Mississippi State,Bulldogs,SEC,FBS
+Missouri,Tigers,SEC,FBS
+Navy,Midshipmen,,FBS
+Nebraska,Cornhuskers,B1G,FBS
+Nevada-Las Vegas,Rebels,MWC,FBS
+Nevada-Reno,Wolf Pack,MWC,FBS
+New Mexico,Lobos,MWC,FBS
+New Mexico State,Aggies,Sun Belt,FBS
+No Carolina State,Wolfpack,ACC,FBS
+North Carolina,Tar Heels,ACC,FBS
+North Texas,Mean Green,C-USA,FBS
+Northern Illinois,Huskies,MAC,FBS
+Northwestern,Wildcats,B1G,FBS
+Notre Dame,Fighting Irish,,FBS
+Ohio,Bobcats,MAC,FBS
+Ohio State,Buckeyes,B1G,FBS
+Oklahoma,Sooners,Big 12,FBS
+Oklahoma State,Cowboys,Big 12,FBS
+Oregon,Ducks,Pac-12,FBS
+Oregon State,Beavers,Pac-12,FBS
+Penn State,Nittany Lions,B1G,FBS
+Pittsburgh,Panthers,ACC,FBS
+Purdue,Boilermakers,B1G,FBS
+Rice,Owls,C-USA,FBS
+Rutgers,Scarlet Knights,B1G,FBS
+S-M-U,Mustangs,AAC,FBS
+San Diego State,Aztecs,MWC,FBS
+San Jose State,Spartans,MWC,FBS
+South Alabama,Jaguars,Sun Belt,FBS
+South Carolina,Gamecocks,SEC,FBS
+South Florida,Bulls,AAC,FBS
+Southern Cal,Trojans,Pac-12,FBS
+Southern Miss,Golden Eagles,C-USA,FBS
+Stanford,Cardinal,Pac-12,FBS
+Syracuse,Orange,ACC,FBS
+Temple,Owls,AAC,FBS
+Tennessee,Volunteers,SEC,FBS
+Texas,Longhorns,Big 12,FBS
+Texas A+M,Aggies,SEC,FBS
+Texas Christian,Horned Frogs,Big 12,FBS
+Texas State,Bobcats,Sun Belt,FBS
+Texas Tech,Red Raiders,Big 12,FBS
+Texas-San Antonio,Roadrunners,C-USA,FBS
+Toledo,Rockets,MAC,FBS
+Troy,Trojans,Sun Belt,FBS
+Tulane,Green Wave,AAC,FBS
+Tulsa,Golden Hurricane,ACC,FBS
+U-A-B,Blazers,C-USA,FBS
+U-C-F,Knights,AAC,FBS
+U.C.L.A.,Bruins,Pac-12,FBS
+UL-Lafayette,Ragin' Cajuns,Sun Belt,FBS
+UL-Monroe,Warhawks,Sun Belt,FBS
+UTEP,Miners,C-USA,FBS
+Utah,Utes,Pac-12,FBS
+Utah State,Aggies,MWC,FBS
+Vanderbilt,Commodores,SEC,FBS
+Virginia,Cavaliers,ACC,FBS
+Virginia Tech,Hokies,ACC,FBS
+Wake Forest,Demon Deacons,ACC,FBS
+Washington,Huskies,Pac-12,FBS
+Washington State,Cougars,Pac-12,FBS
+West Virginia,Mountaineers,Big 12,FBS
+Western Kentucky,Hilltoppers,C-USA,FBS
+Western Michigan,Broncos,MAC,FBS
+Wisconsin,Badgers,B1G,FBS
+Wyoming,Cowboys,MWC,FBS
