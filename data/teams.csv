@@ -6,14 +6,14 @@ Arizona,Wildcats,Pac-12,FBS
 Arizona State,Sun Devils,Pac-12,FBS
 Arkansas,Razorbacks,SEC,FBS
 Arkansas State,Red Wolves,Sun Belt,FBS
-Army,Black Knights,,FBS
+Army,Black Knights,FBS Independent,FBS
 Auburn,Tigers,SEC,FBS
 Ball State,Cardinals,MAC,FBS
 Baylor,Bears,Big 12,FBS
 Boise State,Broncos,MWC,FBS
 Boston College,Eagles,ACC,FBS
 Bowling Green,Falcons,MAC,FBS
-Brigham Young,Cougars,,FBS
+Brigham Young,Cougars,FBS Independent,FBS
 Buffalo,Bulls,MAC,FBS
 California,Golden Bears,Pac-12,FBS
 Central Michigan,Chippewas,MAC,FBS
@@ -60,7 +60,7 @@ Minnesota,Golden Gophers,B1G,FBS
 Mississippi,Rebels,SEC,FBS
 Mississippi State,Bulldogs,SEC,FBS
 Missouri,Tigers,SEC,FBS
-Navy,Midshipmen,,FBS
+Navy,Midshipmen,FBS Independent,FBS
 Nebraska,Cornhuskers,B1G,FBS
 Nevada-Las Vegas,Rebels,MWC,FBS
 Nevada-Reno,Wolf Pack,MWC,FBS
@@ -71,7 +71,7 @@ North Carolina,Tar Heels,ACC,FBS
 North Texas,Mean Green,C-USA,FBS
 Northern Illinois,Huskies,MAC,FBS
 Northwestern,Wildcats,B1G,FBS
-Notre Dame,Fighting Irish,,FBS
+Notre Dame,Fighting Irish,FBS Independent,FBS
 Ohio,Bobcats,MAC,FBS
 Ohio State,Buckeyes,B1G,FBS
 Oklahoma,Sooners,Big 12,FBS

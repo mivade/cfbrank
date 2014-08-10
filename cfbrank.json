@@ -1,10 +1,16 @@
 {
     "algorithms": ["original", "AWPMOV", "park-newman"],
+    "weights": {
+	"original": [0.5, 2.0],
+	"AWPMOV": [3.0, 2.0, 1.0]
+    },
+    "penalties": {
+	"original": 0.9,
+	"AWPMOV": 0.4
+    },
     "divisions": ["FBS", "FCS"],
-    "weights": [0.7, 0.7],
-    "penalties": [0.9],
     "filename": "data/sunshine2013.csv",
     "data_url": "http://repole.com/sun4cast/stats/cfb2013stats.csv",
-    "teams": "data/teams.csv",
-    "conferences": "data/conferences.json"
+    "team_file": "data/teams.csv",
+    "conference_file": "data/conferences.json"
 }

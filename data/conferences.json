@@ -49,6 +49,11 @@
 	"division": "FBS",
 	"headquarters": "New Orleans, LA"
     },
+    "FBS Independent": {
+	"name": "FBS Independent",
+	"division": "FBS",
+	"headquarters": "N/A"
+    },
     "Big Sky": {
 	"name": "Big Sky Conference",
 	"division": "FCS",

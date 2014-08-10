@@ -6,15 +6,16 @@ cfbrank is distributed under the terms of the GNU GPL.
 
 """
 
+from __future__ import division
 import os
 import os.path
 import shutil
 import json
 import tempfile
 import urllib
-import sqlite3
 import argparse
 import logging
+import numpy as np
 import pandas as pd
 #import formatting
 
@@ -29,99 +30,139 @@ with open('cfbrank.json', 'r') as config_file:
     
 class CFBRank(object):
     """Object for ranking CFB teams."""
-    def __init__(self, data, **kwargs):
+    def __init__(self, data, algorithm='AWPMOV', **kwargs):
         """Creates a new CFBRank object with the given data.
 
         Parameters
         ----------
         data : pd.DataFrame   
             Data table consisting of season team statistics.
+        algorithm : str, optional
+            Specifies the default ranking algorithm to use.
 
         """
+        assert isinstance(data, pd.DataFrame)
         self.data = data
-
-    def rank(self, algorithm='AWPMOV'):
-        """Rank the teams using the specified algorithm."""
+        assert isinstance(algorithm, (str, unicode))
         assert algorithm in config['algorithms']
+        self.algorithm = algorithm
 
-    def _rank_original(self):
-        """'Original' ranking method."""
+        # Create a dictionary of teams.
+        teams = pd.read_csv(config['team_file'])
+        team_names = teams.School.values
+        self.teams = {}
+        for i, team in enumerate(team_names):
+            logging.debug('Adding {0}...'.format(team))
+            self.teams[team] = Team(
+                self.data, team,
+                nickname=teams.Nickname[i],
+                division=teams.Division[i],
+                conference=teams.Conference[i]
+            )
 
-    def _rank_awpmov(self):
-        """AWPMOV ranking method."""
+    def rank(self, normalize_scores=True):
+        """Rank the teams using the specified algorithm.
 
-    def _rank_park_newman(self):
-        """Park-Newman ranking method."""
-        raise NotImplementedError("Park-Newman not yet implemented.")
+        Parameters
+        ----------
+        normalize_scores : bool, optional
+            Normalize the ranking scores so that the first place team
+            has a score of 1.0. Defaults to True.
+
+        Returns
+        -------
+        scores : np.ndarray
+            ...
+
+        """
+        scores = np.zeros(len(self.teams))
+        for i, name in enumerate(self.teams):
+            scores[i] = self.teams[name].compute_raw_score(algorithm=self.algorithm)
+        if normalize_scores:
+            scores = scores/scores.max()
+        return scores
 
 class Team(object):
     """Team object for performing rankings and computing other
     statistics.
 
     """
-    def __init__(self, school, nickname='', division='FBS', conference=None):
+    def __init__(self, data, school, **kwargs):
         """Create a new team.
 
         Parameters
         ----------
+        data : pd.DataFrame
+            Season statistics data.
         school : str
             The name of the school as used in the database, e.g.,
             "Texas".
+
+        Keyword arguments
+        -----------------
         nickname : str
             Team nickname of the team, e.g., "Longhorns".
-        fbs : str
+        division : str
             String describing what division the team is in. See the
             config file for valid options.
-        conference : str, optional
+        conference : str
             The name of the conference the team belongs to if
             applicable.
 
         """
+        # Parse arguments and check they are the right types.
+        assert isinstance(data, pd.DataFrame)
+        self.data = data
+        
         assert isinstance(school, (str, unicode))
         self.school = school
-        
-        assert isinstance(nickname, (str, unicode))
-        self.nickname = nickname
-        
-        assert isinstance(division, (str, unicode))
-        assert division in config['divisions']
-        self.division = division
-        
-        assert isinstance(conference, (str, unicode)) or conference is None
-        self.conference = conference
 
-    def get_record(self, data):
-        """Determine the team's record.
+        self.nickname = kwargs.get('nickname', '')
+        assert isinstance(self.nickname, (str, unicode))
 
-        Parameters
-        ----------
-        data : pd.DataFrame
-            Database of season statistics.
+        self.division = kwargs.get('division', 'FBS')
+        assert isinstance(self.division, (str, unicode))
+        assert self.division in config['divisions']
 
-        Returns
-        -------
-        wins : int
-            Number of wins.
-        losses : int
-            Number of losses.
+        self.conference = kwargs.get('conference', None)
+        assert isinstance(self.conference, (str, unicode)) or self.conference is None
 
-        """
-        assert isinstance(data, pd.DataFrame)
-        matches = data.TeamName.str.match(r'^{0}$'.format(self.school))
-        idx = [i for i, match in enumerate(matches) if match]
-        points_for = data.ScoreOff[idx].values
-        points_against = data.ScoreDef[idx].values
-        diff = points_for - points_against
-        wins, losses = 0, 0
+        # Compute points and win/loss record.
+        matches = self.data.TeamName.str.match(r'^{0}$'.format(self.school))
+        self._idx = [i for i, match in enumerate(matches) if match]
+        self.points_for = self.data.ScoreOff[self._idx].values
+        self.points_against = self.data.ScoreDef[self._idx].values
+        diff = self.points_for - self.points_against
+        self.wins, self.losses = 0, 0
         for game in diff:
             if game > 0:
-                wins += 1
+                self.wins += 1
             else:
-                losses += 1
-        return wins, losses
+                self.losses += 1
 
-    def compute_raw_score(self, data, algorithm='AWPMOV'):
+    def _get_opponents_winning_percentage(self):
+        """Compute the aggregate winning percentage of the team's
+        opponents.
+
+        """
+
+    def compute_raw_score(self, algorithm='AWPMOV'):
         """Compute a raw score using the specified algorithm."""
+        if algorithm not in config['algorithms']:
+            raise RuntimeError("Unrecognized algorithm.")
+        logging.debug('Computing raw score for ' + self.school)
+        if algorithm == 'AWPMOV':
+            w = np.zeros(3)
+            weights = config['weights']['AWPMOV']
+            try:
+                w[0] = self.wins/self.losses
+            except ZeroDivisionError:
+                w[0] = 1.0
+            #w[1] = self._get_opponents_winning_percentage(data)
+            w[2] = self.points_for.sum() - self.points_against.sum()
+            w = weights*w
+        logging.debug('w = ' + str(w))
+        return w.sum()
 
 class Conference(object):
     """Conference object for computing conference statistics."""
@@ -167,11 +208,19 @@ if __name__ == "__main__":
         '--purge',
         help="Remove the database file and backup file prior to doing anything else.",
         action='store_true'
-        )
+    )
+    parser.add_argument(
+        '-v', '--verbose',
+        help="Show more output. Useful for debugging purposes.",
+        action='store_true'
+    )
     args = parser.parse_args()
 
     # Configure logging
-    logging.basicConfig(level=logging.INFO)
+    if args.verbose:
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.INFO)
 
     # Load season statistics data
     conf_file = config['filename']
@@ -194,12 +243,8 @@ if __name__ == "__main__":
             dfile.write(urllib.urlopen(config['data_url']).read())
     data = pd.read_csv(config['filename'])
 
-    # Load conference and team data
-    conferences_def = pd.read_json(config['conferences'])
-    teams_def = pd.read_csv(config['teams'])
-
-    # Testing of records computing
-    texas = Team('Texas', 'Longhorns', conference='Big 12')
-    print texas.get_record(data)
-    tOSU = Team('Ohio State', 'Buckeyes', conference='B1G')
-    print tOSU.get_record(data)
+    # Perform the rankings
+    ranker = CFBRank(data)
+    scores = ranker.rank()
+    idx = scores.argsort()[::-1]
+    print np.array(ranker.teams.keys(), dtype=str)[idx]
